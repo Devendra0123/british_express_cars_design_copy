@@ -1,0 +1,354 @@
+<?php include "./includes/header.php" ?>
+
+
+<section class="banner">
+    <div class="main-banner one"
+        style="background:url(https://www.britishexpresscars.co.uk/media/79_blog_gatwick.jpg) no-repeat center top; ">
+        <!--            <figure>-->
+        <!--                <img src="assets/image/banner.webp" class="img-fluid" alt="inner-banner">-->
+        <!--            </figure>-->
+
+        <style>
+            .return-trip {
+                color: #fff;
+
+                display: none;
+                margin-top: 20px;
+            }
+
+            .pickup_points {
+                display: none;
+            }
+        </style>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="banner-content">
+                        <h1 style="color: #fff">Gatwick Airport Transfers from £49.00 Only.</h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <?php include "./includes/quote.php" ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    ×
+                </button>
+                <h4 class="modal-title">Notice Board</h4>
+            </div>
+            <div class="modal-body">
+                <p id="datashow">Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!--<div class="small" style="border: 1px #fad775 solid;border-radius: 5px;margin: 5px 0px 5px;padding: 20px;background-color: #fff9e5;margin-top: 30px;">
+               <p>
+                  <span style="font-weight: 700;"><i class="fas fa-exclamation-triangle yellow300" style="color: #e3b016;"></i>
+                  <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">COVID-19: Transfer service restored. </font>
+                  <font style="vertical-align: inherit;">The use of masks is mandatory for all passengers, including the driver. </font>
+                  <font style="vertical-align: inherit;">It is not possible to travel in the front seats. </font>
+                  <font style="vertical-align: inherit;">Vehicles are disinfected after each trip and cleaned every 24 hours.</font>
+                  </font>
+                  </span>
+               </p>
+            </div>
+         </div>-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="term-inner section-break">
+
+    <div class="container">
+
+        <div class="term-wrap">
+
+            <!--             <h1>Terms & Conditions</h1> -->
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+
+
+
+                    <h2><span style="font-family: arial, helvetica, sans-serif;"><strong><span
+                                    style="color: red;">Gatwick Airport Transfers</span></strong></span></h2>
+                    <p>&nbsp;</p>
+                    <p><span style="color: #444444; font-family: arial, helvetica, sans-serif;">British Express Cars we
+                            provide high-quality transfer to and from Gatwick Airport to any part of the United Kingdom.
+                            We operate 24 hours a day 7 days a week. Our aim is to offer the best reliable and safest
+                            transfer service to all our customers at a competitive price. Passengers can pre-book their
+                            Gatwick Airport Transfer service online at fixed prices Instantly using our secure booking
+                            system.</span></p>
+                    <p><span style="color: #444444; font-family: arial, helvetica, sans-serif;"><br></span></p>
+                    <h3><span style="font-family: arial, helvetica, sans-serif;"><strong><span
+                                    style="color: #e50914;">Gatwick Airport Meeting Points&nbsp;</span></strong></span>
+                    </h3>
+                    <p><span style="color: #e50914; font-family: arial, helvetica, sans-serif;"><br></span></p>
+                    <p><span style="color: #444444; font-family: arial, helvetica, sans-serif;">Gatwick North Terminal -
+                            Outside Costa Coffee</span><br><span
+                            style="color: #444444; font-family: arial, helvetica, sans-serif;">Gatwick South Terminal -
+                            <span>Outside Costa Coffee</span></span></p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="why-choose-wrapper text-center">
+
+            <div class="row">
+
+                <div class="col-md-4 ">
+
+                    <div class="whychoose-content">
+
+                        <img src="assets/images/landing-ico1.png">
+
+                        <h4>No Extra for Flight Delays</h4>
+
+                        <p>We monitor the arrival and departure time of flights to ensure the cars reach the airport
+                            right on schedule.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="whychoose-content">
+
+                        <img src="assets/images/landing-ico2.png">
+
+                        <h4>Free Meet &amp; Greet</h4>
+
+                        <p>Our ‘Meet &amp; Greet’ service ensures that our driver will be there to greet you at your
+                            arrival.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="whychoose-content">
+
+                        <img src="assets/images/landing-ico3.png">
+
+                        <h4>Free Waiting Time</h4>
+
+                        <p>We allow free waiting time of 30 minutes at airports, and 15 minutes at hotel, address and
+                            other places.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+<div style="
+          background: linear-gradient(to right, #e50914, #e50914);
+          padding: 50px 15px;
+          color: #fff;
+        ">
+    <div class="container">
+        <div class="heading">
+            <h2 style="text-align: center; color: #fff">
+                "Word around the corner"
+            </h2>
+        </div>
+
+        <div class="clear"></div>
+        <span>
+            <div class="row" style="padding-top: 20px">
+                <div class="col-md-4">
+                    <div align="center" style="padding: 20px 0px">
+                        <a href="https://www.google.com/search?q=british+express+cars&amp;rlz=1C1CHBF_enGB1014GB1014&amp;oq=british+&amp;aqs=chrome.0.35i39i355j46i39i175i199j69i59j69i60l4j69i65.3023j0j4&amp;sourceid=chrome&amp;ie=UTF-8"
+                            target="_blank" style="color: #fff">
+                            <p style="font-weight: 700; font-size: 40px; color: #fff">
+                                <i class="fa fa-star" style="color: #96f321" aria-hidden="true"></i>
+                                <span>4.8</span>/<span>5</span>
+                            </p>
+                            <p style="font-weight: 400; font-size: 18px; color: #fff">
+                                ASSESMENT
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div align="center" style="padding: 20px 0px">
+                        <a href="https://www.google.com/search?q=british+express+cars&amp;rlz=1C1CHBF_enGB1014GB1014&amp;oq=british+&amp;aqs=chrome.0.35i39i355j46i39i175i199j69i59j69i60l4j69i65.3023j0j4&amp;sourceid=chrome&amp;ie=UTF-8/feedback"
+                            target="_blank" style="color: #fff">
+                            <p style="font-weight: 700; font-size: 40px; color: #fff">
+                                <i class="fa fa-users" style="color: #96f321" aria-hidden="true"></i>
+                                900,000
+                            </p>
+                            <p style="font-weight: 400; font-size: 18px; color: #fff">
+                                USERS
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div align="center" style="padding: 20px 0px">
+                        <a href="https://www.google.com/search?q=british+express+cars&amp;rlz=1C1CHBF_enGB1014GB1014&amp;oq=british+&amp;aqs=chrome.0.35i39i355j46i39i175i199j69i59j69i60l4j69i65.3023j0j4&amp;sourceid=chrome&amp;ie=UTF-8"
+                            target="_blank" style="color: #fff">
+                            <p style="font-weight: 700; font-size: 40px; color: #fff">
+                                <i class="fa fa-comments" style="color: #96f321" aria-hidden="true"></i>
+                                <span>1000</span>
+                            </p>
+                        </a><a
+                            href="https://www.google.com/search?q=british+express+cars&amp;rlz=1C1CHBF_enGB1014GB1014&amp;oq=british+&amp;aqs=chrome.0.35i39i355j46i39i175i199j69i59j69i60l4j69i65.3023j0j4&amp;sourceid=chrome&amp;ie=UTF-8"
+                            target="_blank" style="font-weight: 400; font-size: 18px; color: #fff">FEEDBACKS</a>
+                    </div>
+                </div>
+            </div>
+        </span>
+        <div class="clear"></div>
+        <div class="row">
+            <div class="col-md-5">
+                <div style="padding: 30px">
+                    <img src="./assets/images/family.png" class="img-responsive" />
+                </div>
+            </div>
+            <div class="col-md-7 centeronlymov">
+                <div style="padding: 20px">
+                    <p style="font-size: 35px; color: #96f321; margin-bottom: 10px">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </p>
+                    <span>
+                        <p style="font-size: 22px; font-style: italic; color: #fff">
+                            Excellent Service, professional company made the booking
+                            process easy and enjoyable. I Would higly reccommend them.
+                        </p>
+                    </span>
+                    <p style="color: #fff; margin: 15px 0 5px">
+                        <span><span>Nicola Baird</span></span> -
+                        <span>07/01/2024</span>
+                    </p>
+                    <a href="https://www.google.com/search?q=british+express+cars&amp;rlz=1C1YTUH_enIN1004IN1004&amp;oq=british+&amp;aqs=chrome.0.69i59l2j69i57j46i199i433i465i512j69i60l4.2961j0j7&amp;sourceid=chrome&amp;ie=UTF-8"
+                        target="_blank" class="btn btn-triad" style="padding: 12px 20px; margin-top: 10px"
+                        role="button">SEE MORE REVIEWS</a>
+                    <!-- <a href="https://www.britishexpresscars.co.uk/feedback" class="btn btn-triad" style="padding: 12px 20px; margin-top: 10px;" role="button">SEE MORE REVIEWS</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="fleet text-center section-break">
+    <div class="container">
+        <div class="heading" style="text-align: left">
+            <h2>A car for every budget and occasion</h2>
+        </div>
+        <p style="text-align: left">
+            From low cost to luxury, We have something for any of your travel
+            needs
+        </p>
+        <div class="fleet-wrap">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="client-wrapper car_overview">
+                        <figure>
+                            <img src="./assets/images/saloon.png" alt="Saloon Car" />
+                        </figure>
+                        <h5>Saloon</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="client-wrapper car_overview">
+                        <figure>
+                            <img src="./assets/images/executive-saloon.png" alt="Executive " />
+                        </figure>
+                        <h5>Executive</h5>
+                    </div>
+                </div>
+                <!--<div class="col-md-3">
+                <div class="client-wrapper car_overview">
+                    <figure>
+                        <img src="fleet/estate.png" alt="Estate">
+                    </figure>
+                    <h5>Estate</h5>
+                </div>
+                
+                </div>
+               <div class="col-md-3">
+                <div class="client-wrapper car_overview">
+                    <figure>
+                        <img src="fleet/mpv.png" alt="MPV">
+                    </figure>
+                    <h5>MPV</h5>
+                </div>
+                 <div class="client-wrapper col-md-3">
+                    <figure>
+                        <img src="fleet/mpv5.png" alt="MPV5">
+                    </figure>
+                    <h5>MPV5</h5>
+                </div>
+                <div class="client-wrapper col-md-3">
+                    <figure>
+                        <img src="fleet/mpv6.png" alt="MPV6">
+                    </figure>
+                    <h5>MPV6</h5>
+                </div>-->
+
+                <div class="col-md-3">
+                    <div class="client-wrapper car_overview">
+                        <figure>
+                            <img src="./assets/images/mpv6.png" alt="Premium V-CLASS " />
+                        </figure>
+                        <h5>Executive MPV</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="client-wrapper car_overview">
+                        <figure>
+                            <img src="./assets/images/8-seater.png" alt="Mercedes Vito " />
+                        </figure>
+                        <h5>Minibus</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<?php include "./includes/footer.php" ?>
