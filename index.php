@@ -9,18 +9,14 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <title>
-    British Express Cars | London Airport Taxi Transfer Service | Call Us On
-    020 8111 1104
-  </title>
+  <title>British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104</title>
 
-  <meta name="title" content="British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104" />
-
+  <meta name="title" content="British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104">
   <meta name="description"
-    content="British Express Cars we offer cheap airport taxi transfers to and from all major airport and cruise ports. Airports we cover Heathrow, Gatwick, Stansted, Luton and London City Airport" />
+    content="British Express Cars we offer cheap airport taxi transfers to and from all major airport and cruise ports. Airports we cover Heathrow, Gatwick, Stansted, Luton and London City Airport">
 
   <meta name="keywords"
-    content="british express cars, heathrow airport cars, gatwick airport cars, stansted airport cars, luton airport cars" />
+    content="british express cars, heathrow airport cars, gatwick airport cars, stansted airport cars, luton airport cars">
 
   <!--<base href="https://www.britishexpresscars.co.uk/">-->
   <base href="." />
@@ -113,8 +109,8 @@
   </div>
 </div>
 
-<!-- App Download Section -->
-  <?php include "./includes/app-download-section.php" ?>
+<!-- App Download Section1 -->
+<?php include "./includes/app-download-section1.php" ?>
 
 <section>
 
@@ -369,4 +365,6 @@
   </div>
 </section>
 </main>
+
+<!-- Footer -->
 <?php include "./includes/footer.php" ?>

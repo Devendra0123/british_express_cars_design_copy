@@ -3,25 +3,40 @@ body {
   padding: 0;
   font-family: Muli, sans-serif;
 }
-.app_download_section {
+.app_download_section1,
+.app_download_section2 {
   width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  background: #ededed;
   margin-top: 0px;
   height: 300px;
   overflow: hidden;
   position: relative;
 }
 
-.app_download_section_container {
+.app_download_section1, .app_download_section2 {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(237, 237, 237, 1) 100%
+  );
+}
+
+.app_download_section_container1,
+.app_download_section_container2 {
   width: 100%;
   display: flex;
   align-items: center;
   gap: 30px;
   z-index: 2;
 }
-.app_download_section div .desc_section {
+.app_download_section_container2 {
+  width: 80%;
+}
+.app_download_section1 div .desc_section1,
+.app_download_section2 div .desc_section2 {
   flex-grow: 1;
   height: 100%;
   display: flex;
@@ -29,13 +44,25 @@ body {
   justify-content: center;
   color: #000000;
 }
-.app_image_container {
+.app_image_container1,
+.app_image_container1 {
   display: flex;
   align-items: flex-end;
 }
-.app_download_section .app_image {
+
+.app_image_container2 {
+  transform: rotate(12deg);
+  margin-bottom: -0px;
+}
+
+.app_download_section1 .app_image {
   width: 380px;
   height: 300px;
+  object-fit: cover;
+}
+.app_download_section2 .app_image {
+  width: 380px;
+  height: 400px;
   object-fit: cover;
 }
 .location_point_route_image {
@@ -46,6 +73,16 @@ body {
   height: 200px;
   object-fit: contain;
   z-index: 1;
+}
+
+.alert {
+  padding: 0px 15px 5px 15px;
+  border: 1px solid #dddddd;
+}
+
+.alert h5 {
+  color: red;
+  font-weight: 700;
 }
 
 h3 {
@@ -1006,6 +1043,9 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   color: #666;
 }
 
+.booking-details{
+  display: none;
+}
 .booking-wrapper .quote-sys-wrapper {
   background: #f1efea;
   /* padding: 20px 20px !important; */

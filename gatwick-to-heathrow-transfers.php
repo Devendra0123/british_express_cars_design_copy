@@ -113,6 +113,10 @@
         </div>
     </div>
 </div>
+
+<!-- App Download Section1 -->
+<?php include "./includes/app-download-section1.php" ?>
+
 <section>
     <div class="container">
         <div class="row">

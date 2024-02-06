@@ -9,19 +9,13 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <title>
-    British Express Cars | London Airport Taxi Transfer Service | Call Us On
-    020 8111 1104
-  </title>
+   <title></title>
 
-  <meta name="title" content="British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104" />
+    <meta name="title" content="">
 
-  <meta name="description"
-    content="British Express Cars we offer cheap airport taxi transfers to and from all major airport and cruise ports. Airports we cover Heathrow, Gatwick, Stansted, Luton and London City Airport" />
+    <meta name="description" content="">
 
-  <meta name="keywords"
-    content="british express cars, heathrow airport cars, gatwick airport cars, stansted airport cars, luton airport cars" />
-
+    <meta name="keywords" content="">
   <!--<base href="https://www.britishexpresscars.co.uk/">-->
   <base href="." />
 
@@ -130,19 +124,19 @@
                     </div>
                     <ul class="sitemap-list">
 
-                        <li><a href="https://www.britishexpresscars.co.uk">Home</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/faqs">FAQs</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/contact">Contact</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/baby-seats">Baby Seats</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/feedback">Feedback</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/privacy-policy">Privacy Policy</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/refund-policy">Refund Policy</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/terms">Terms &amp; Condition</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/heathrow">Heathrow Airport Transfers</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/gatwick">Gatwick Airport Transfers</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/stansted">Stansted Airport Transfers</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/luton">Luton Airport Transfers</a></li>
-                        <li><a href="https://www.britishexpresscars.co.uk/city">City Airport Transfers</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="faqs.php">FAQs</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="baby-seats.php">Baby Seats</a></li>
+                        <li><a href="feedback.php">Feedback</a></li>
+                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                        <li><a href="refund-policy.php">Refund Policy</a></li>
+                        <li><a href="terms.php">Terms &amp; Condition</a></li>
+                        <li><a href="heathrow.php">Heathrow Airport Transfers</a></li>
+                        <li><a href="gatwick.php">Gatwick Airport Transfers</a></li>
+                        <li><a href="stansted.php">Stansted Airport Transfers</a></li>
+                        <li><a href="luton.php">Luton Airport Transfers</a></li>
+                        <li><a href="city.php">City Airport Transfers</a></li>
                     </ul>
                 </div>
             </div>

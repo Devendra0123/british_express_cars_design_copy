@@ -9,60 +9,57 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <title>
-    British Express Cars | London Airport Taxi Transfer Service | Call Us On
-    020 8111 1104
-  </title>
+  <<title>Contact British Express Cars | Call us for Heathrow taxi-Gatwick taxi | 020881111104</title>
 
-  <meta name="title" content="British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104" />
+    <meta name="title" content="Contact British Express Cars | Call us for Heathrow taxi-Gatwick taxi | 020881111104">
 
-  <meta name="description"
-    content="British Express Cars we offer cheap airport taxi transfers to and from all major airport and cruise ports. Airports we cover Heathrow, Gatwick, Stansted, Luton and London City Airport" />
+    <meta name="description"
+      content="Call us for your London airport taxi transfers. British Express Cars Contact details">
 
-  <meta name="keywords"
-    content="british express cars, heathrow airport cars, gatwick airport cars, stansted airport cars, luton airport cars" />
+    <meta name="keywords" content="contact british express cars, british express cars contact details ">
 
-  <!--<base href="https://www.britishexpresscars.co.uk/">-->
-  <base href="." />
+    <!--<base href="https://www.britishexpresscars.co.uk/">-->
+    <base href="." />
 
-  <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
+    <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
 
-  <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
 
-  <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
 
 
-  <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
 
 
-  <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
-  <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/style.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/style.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
 
-  <script src="./js/jquery.js"></script>
-  <script src="./js/api.js" async="" defer=""></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/api.js" async="" defer=""></script>
 
 </head>
 <?php include "./includes/header.php" ?>
 
 <div class="inner-sitemap">
-    <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="https://www.britishexpresscars.co.uk/"><i class="fa fa-home"> </i> Home</a></li>
-                <li class="breadcrumb-item" aria-current="page"> &gt;&gt; Contact Us</li>
-            </ol>
-        </nav>
-    </div>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="https://www.britishexpresscars.co.uk/"><i class="fa fa-home"> </i> Home</a>
+        </li>
+        <li class="breadcrumb-item" aria-current="page"> &gt;&gt; Contact Us</li>
+      </ol>
+    </nav>
+  </div>
 </div>
 <section class="contact-info section-break" style="padding: 10px 0 30px;">
   <div class="container">

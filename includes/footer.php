@@ -76,6 +76,8 @@ function googleTranslateElementInit() {
     </div>
   </section>
 </footer>
+<!-- App Download Section -->
+<?php include "./includes/app-download-section2.php" ?>
 
 <section class="top-footer">
   <div class="container">
@@ -263,6 +265,17 @@ function googleTranslateElementInit() {
 <link rel="stylesheet" href="./css/easy-autocomplete.themes.min.css" />
 
 <script>
+  var url = $(location).attr('href').split("/");
+  console.log(url, "sdfdsfsdfdsf")
+  if (url[3] == "british-express") {
+    $(".main-template").addClass("british-template");
+    $(".main-template").removeClass("travel-template");
+  }
+  else {
+    $(".main-template").removeClass("british-template");
+    $(".main-template").addClass("travel-template");
+  }
+
   var options = {
     url: function (phrase) {
       return "api.php?data=" + phrase + "&format=json";

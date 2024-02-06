@@ -964,7 +964,7 @@
     .ft-banner .ft-banner-wrapper {
         position: static;
         padding: 20px 0;
-        background: url(../images/banner/xs-banner.html) right no-repeat ! impor tant;
+        background: url(../images/banner/xs-banner.html) right no-repeat ! important;
         background-size: inherit
     }
     .ft-banner .ft-banner-wrapper .banner-inner .banner-des {
