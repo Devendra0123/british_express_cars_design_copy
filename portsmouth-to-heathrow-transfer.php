@@ -3,60 +3,61 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <!-- Required meta tags -->
+    <!-- Required meta tags -->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <title>
-    British Express Cars | London Airport Taxi Transfer Service | Call Us On
-    020 8111 1104
-  </title>
+    <title>
+        British Express Cars | London Airport Taxi Transfer Service | Call Us On
+        020 8111 1104
+    </title>
 
-  <meta name="title" content="British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104" />
+    <meta name="title"
+        content="British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104" />
 
-  <meta name="description"
-    content="British Express Cars we offer cheap airport taxi transfers to and from all major airport and cruise ports. Airports we cover Heathrow, Gatwick, Stansted, Luton and London City Airport" />
+    <meta name="description"
+        content="British Express Cars we offer cheap airport taxi transfers to and from all major airport and cruise ports. Airports we cover Heathrow, Gatwick, Stansted, Luton and London City Airport" />
 
-  <meta name="keywords"
-    content="british express cars, heathrow airport cars, gatwick airport cars, stansted airport cars, luton airport cars" />
+    <meta name="keywords"
+        content="british express cars, heathrow airport cars, gatwick airport cars, stansted airport cars, luton airport cars" />
 
-  <!--<base href="https://www.britishexpresscars.co.uk/">-->
-  <base href="." />
+    <!--<base href="https://www.britishexpresscars.co.uk/">-->
+    <base href="." />
 
-  <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
+    <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
 
-  <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
 
-  <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
+
+    <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
+
+    <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
 
 
-  <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/style.css" async="" media="all" />
 
+    <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
-  <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
-
-  <link rel="stylesheet" href="./css/style.css" async="" media="all" />
-
-  <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
-
-  <script src="./js/jquery.js"></script>
-  <script src="./js/api.js" async="" defer=""></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/api.js" async="" defer=""></script>
 
 </head>
+
 <?php include "./includes/header.php" ?>
 
 <section class="banner">
-    <div class="main-banner one"
-        style="background:url(https://www.britishexpresscars.co.uk/media/76_blog_heathrow.jpg) no-repeat center top; ">
+<div class="main-banner one"
+        style="background:url(https://www.britishexpresscars.co.uk/media/9658_blog_cruise-transfers.jpg) no-repeat center top; ">
         <!--            <figure>-->
         <!--                <img src="assets/image/banner.webp" class="img-fluid" alt="inner-banner">-->
         <!--            </figure>-->
@@ -78,7 +79,7 @@
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div class="banner-content">
-                        <h1 style="color: #fff">Heathrow Airport Transfers from £39.00 Only.</h1>
+                        <h1 style="color: #fff">Portsmouth to Heathrow</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -132,110 +133,60 @@
     </div>
 </section>
 
-<section class="term-inner section-break">
+<section class="why-choose section-break text-center" style=" padding: 50px 0 90px; ">
 
     <div class="container">
-
-        <div class="term-wrap">
-
-            <!--             <h1>Terms & Conditions</h1> -->
-
-            <div class="row">
-
-                <div class="col-md-12">
+        <div class="heading" style="margin-bottom:4em;">
 
 
 
-
-                    <h2><strong style="font-family: arial, helvetica, sans-serif;"><span
-                                style="color: #e50914;">Heathrow Airport Transfers</span></strong></h2>
-                    <p><br><span style="font-family: arial, helvetica, sans-serif;">Looking for a reliable Heathrow
-                            airport transfer? At British Express Cars we provide high-quality licensed private airport
-                            transfer services to and from Heathrow Airport to any part of the United Kingdom. We operate
-                            24 hours a day 7 days a week. Our aim is to offer the best reliable and safest transfer
-                            service to all our customers at a competitive price. Passengers can pre-book their Heathrow
-                            Airport Transfer service online at fixed prices Instantly using our secure booking
-                            system.</span></p>
-                    <p><span style="font-family: arial, helvetica, sans-serif;"><br></span></p>
-                    <h3><span style="font-family: arial, helvetica, sans-serif;"><strong><span
-                                    style="color: #e50914;">Heathrow Airport Meeting Points&nbsp;</span></strong></span>
-                    </h3>
-                    <p>&nbsp;</p>
-                    <p><span style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 1 –
-                            Closed</span><br><span style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal
-                            2 - Outside WHSmith</span><br><span
-                            style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 3 - <span>Outside
-                                WHSmith</span></span><br><span
-                            style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 4 - Outside Costa
-                            Coffee&nbsp;</span><br><span style="font-family: arial, helvetica, sans-serif;">Heathrow
-                            Terminal 5 - <span>Outside Costa Coffee&nbsp;</span></span></p>
-                </div>
-
-            </div>
+            <p style="text-align: left;"></p>
+            <h2 style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; color: #444444;"><span
+                        style="color: #dc3545;"><strong>Transfer&nbsp;from </strong><strong>Portsmouth</strong><strong>
+                            to Heathrow</strong></span><strong>&nbsp;</strong></span></h2>
+            <p style="text-align: left;">&nbsp;</p>
+            <p style="text-align: left;"><span
+                    style="font-family: arial, helvetica, sans-serif; color: #444444;">Looking for a reliable Portsmouth
+                    to Heathrow airport transfer? At British Express Cars we provide high-quality licensed private
+                    airport transfer service between Portsmouth and Heathrow. Take advantage of our great prices which
+                    also include all airport services: flight monitoring, meet &amp; greet (driver will wait at arrivals
+                    with a name board) and 30 minutes free waiting time.</span></p>
+            <p style="text-align: left;"><span
+                    style="font-family: arial, helvetica, sans-serif; color: #444444;"><br></span></p>
+            <p style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; color: #444444;">We
+                    operate 24 hours a day 7 days a week. Our aim is to offer the best reliable and safest&nbsp;transfer
+                    service to all our customers at a competitive price. Passengers can pre-book their Portsmouth to
+                    Heathrow Transfer service online at fixed prices Instantly using our secure booking system.</span>
+            </p>
+            <p></p>
 
         </div>
-
-
-
-
-
-        <div class="why-choose-wrapper text-center">
-
+        <div class="">
             <div class="row">
-
                 <div class="col-md-4 ">
-
                     <div class="whychoose-content">
-
-                        <img src="assets/images/landing-ico1.png">
-
-                        <h4>No Extra for Flight Delays</h4>
-
-                        <p>We monitor the arrival and departure time of flights to ensure the cars reach the airport
-                            right on schedule.</p>
-
+                        <img src="assets/images/why1.png">
+                        <h4>Licensed Drivers</h4>
+                        <p>You always know your driver; all drivers are carefully selected.</p>
                     </div>
-
                 </div>
-
                 <div class="col-md-4">
-
                     <div class="whychoose-content">
-
-                        <img src="assets/images/landing-ico2.png">
-
-                        <h4>Free Meet &amp; Greet</h4>
-
-                        <p>Our ‘Meet &amp; Greet’ service ensures that our driver will be there to greet you at your
-                            arrival.</p>
-
+                        <img src="assets/images/why2.png">
+                        <h4>Best Price Garanteed</h4>
+                        <p>There are no hidden surprises with us, affordable all-inclusive rates.</p>
                     </div>
-
                 </div>
-
                 <div class="col-md-4">
-
                     <div class="whychoose-content">
-
-                        <img src="assets/images/landing-ico3.png">
-
-                        <h4>Free Waiting Time</h4>
-
-                        <p>We allow free waiting time of 30 minutes at airports, and 15 minutes at hotel, address and
-                            other places.</p>
-
+                        <img src="assets/images/why3.png">
+                        <h4>Free Witing Tme </h4>
+                        <p>We allow free waiting time of 30 minutes at airport and Seaports.</p>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
-
-
     </div>
-
 </section>
 <div style="
           background: linear-gradient(to right, #e50914, #e50914);

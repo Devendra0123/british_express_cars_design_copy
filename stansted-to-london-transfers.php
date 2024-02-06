@@ -56,7 +56,7 @@
 
 <section class="banner">
     <div class="main-banner one"
-        style="background:url(https://www.britishexpresscars.co.uk/media/76_blog_heathrow.jpg) no-repeat center top; ">
+        style="background:url(https://www.britishexpresscars.co.uk/media/9659_blog_london.jpg) no-repeat center top; ">
         <!--            <figure>-->
         <!--                <img src="assets/image/banner.webp" class="img-fluid" alt="inner-banner">-->
         <!--            </figure>-->
@@ -78,7 +78,7 @@
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div class="banner-content">
-                        <h1 style="color: #fff">Heathrow Airport Transfers from £39.00 Only.</h1>
+                        <h1 style="color: #fff">Transfer from Stansted to London</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -147,28 +147,20 @@
 
 
 
-                    <h2><strong style="font-family: arial, helvetica, sans-serif;"><span
-                                style="color: #e50914;">Heathrow Airport Transfers</span></strong></h2>
-                    <p><br><span style="font-family: arial, helvetica, sans-serif;">Looking for a reliable Heathrow
-                            airport transfer? At British Express Cars we provide high-quality licensed private airport
-                            transfer services to and from Heathrow Airport to any part of the United Kingdom. We operate
-                            24 hours a day 7 days a week. Our aim is to offer the best reliable and safest transfer
-                            service to all our customers at a competitive price. Passengers can pre-book their Heathrow
-                            Airport Transfer service online at fixed prices Instantly using our secure booking
-                            system.</span></p>
-                    <p><span style="font-family: arial, helvetica, sans-serif;"><br></span></p>
-                    <h3><span style="font-family: arial, helvetica, sans-serif;"><strong><span
-                                    style="color: #e50914;">Heathrow Airport Meeting Points&nbsp;</span></strong></span>
-                    </h3>
-                    <p>&nbsp;</p>
-                    <p><span style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 1 –
-                            Closed</span><br><span style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal
-                            2 - Outside WHSmith</span><br><span
-                            style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 3 - <span>Outside
-                                WHSmith</span></span><br><span
-                            style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 4 - Outside Costa
-                            Coffee&nbsp;</span><br><span style="font-family: arial, helvetica, sans-serif;">Heathrow
-                            Terminal 5 - <span>Outside Costa Coffee&nbsp;</span></span></p>
+                    <h2><span style="color: #e50914;"><strong><span
+                                    style="font-family: arial, helvetica, sans-serif;">Transfer from Stansted to
+                                    London</span></strong></span></h2>
+                    <p><br><span style="font-family: arial, helvetica, sans-serif;">Transfer to/from Stansted to London.
+                            At British Express Cars we provide high-quality licensed private airport transfer services
+                            between Stansted and London. We operate 24 hours a day 7 days a week. Our aim is to offer
+                            the best reliable and safest transfer service to all our customers at a competitive price.
+                            Passengers can pre-book their London to Stansted Transfer service online at fixed prices
+                            Instantly using our secure booking system.</span></p>
+                    <p><br><span style="font-family: arial, helvetica, sans-serif;">Our private transfer service from
+                            Stansted Airport to London or from London to Stansted Airport is available 7 days a week,
+                            365 days a year. The journey time for the transfer is approximately 1 hour and 10 minutes.
+                            However, during rush hours, traffic could add an extra 30 minutes to the trip. Journey
+                            distance for the transfer is 38 mi (61 km).</span></p>
                 </div>
 
             </div>

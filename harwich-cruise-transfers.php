@@ -3,60 +3,61 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <!-- Required meta tags -->
+    <!-- Required meta tags -->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <title>
-    British Express Cars | London Airport Taxi Transfer Service | Call Us On
-    020 8111 1104
-  </title>
+    <title>
+        British Express Cars | London Airport Taxi Transfer Service | Call Us On
+        020 8111 1104
+    </title>
 
-  <meta name="title" content="British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104" />
+    <meta name="title"
+        content="British Express Cars | London Airport Taxi Transfer Service | Call Us On 020 8111 1104" />
 
-  <meta name="description"
-    content="British Express Cars we offer cheap airport taxi transfers to and from all major airport and cruise ports. Airports we cover Heathrow, Gatwick, Stansted, Luton and London City Airport" />
+    <meta name="description"
+        content="British Express Cars we offer cheap airport taxi transfers to and from all major airport and cruise ports. Airports we cover Heathrow, Gatwick, Stansted, Luton and London City Airport" />
 
-  <meta name="keywords"
-    content="british express cars, heathrow airport cars, gatwick airport cars, stansted airport cars, luton airport cars" />
+    <meta name="keywords"
+        content="british express cars, heathrow airport cars, gatwick airport cars, stansted airport cars, luton airport cars" />
 
-  <!--<base href="https://www.britishexpresscars.co.uk/">-->
-  <base href="." />
+    <!--<base href="https://www.britishexpresscars.co.uk/">-->
+    <base href="." />
 
-  <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
+    <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
 
-  <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
 
-  <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
-
-
-  <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
-
-  <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
 
 
-  <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
-  <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/style.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
 
-  <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
 
-  <script src="./js/jquery.js"></script>
-  <script src="./js/api.js" async="" defer=""></script>
+    <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
+    <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
+
+    <link rel="stylesheet" href="./css/style.css" async="" media="all" />
+
+    <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/api.js" async="" defer=""></script>
 
 </head>
 <?php include "./includes/header.php" ?>
 
 <section class="banner">
     <div class="main-banner one"
-        style="background:url(https://www.britishexpresscars.co.uk/media/76_blog_heathrow.jpg) no-repeat center top; ">
+        style="background:url(https://www.britishexpresscars.co.uk/media/9652_blog_cruise-transfers.jpg) no-repeat center top; ">
         <!--            <figure>-->
         <!--                <img src="assets/image/banner.webp" class="img-fluid" alt="inner-banner">-->
         <!--            </figure>-->
@@ -78,7 +79,7 @@
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div class="banner-content">
-                        <h1 style="color: #fff">Heathrow Airport Transfers from £39.00 Only.</h1>
+                        <h1 style="color: #fff">Harwich Cruise Transfers </h1>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -147,28 +148,41 @@
 
 
 
-                    <h2><strong style="font-family: arial, helvetica, sans-serif;"><span
-                                style="color: #e50914;">Heathrow Airport Transfers</span></strong></h2>
-                    <p><br><span style="font-family: arial, helvetica, sans-serif;">Looking for a reliable Heathrow
-                            airport transfer? At British Express Cars we provide high-quality licensed private airport
-                            transfer services to and from Heathrow Airport to any part of the United Kingdom. We operate
-                            24 hours a day 7 days a week. Our aim is to offer the best reliable and safest transfer
-                            service to all our customers at a competitive price. Passengers can pre-book their Heathrow
-                            Airport Transfer service online at fixed prices Instantly using our secure booking
-                            system.</span></p>
-                    <p><span style="font-family: arial, helvetica, sans-serif;"><br></span></p>
-                    <h3><span style="font-family: arial, helvetica, sans-serif;"><strong><span
-                                    style="color: #e50914;">Heathrow Airport Meeting Points&nbsp;</span></strong></span>
-                    </h3>
+                    <h2><span style="font-family: arial, helvetica, sans-serif;"><strong><span
+                                    style="color: #e50914;">Harwich Cruise Port Transfers</span></strong></span></h2>
+                    <p><span style="font-family: arial, helvetica, sans-serif;"><strong><span
+                                    style="color: #e50914;"><br></span></strong></span></p>
+                    <p><span style="font-family: arial, helvetica, sans-serif; color: #444444;">We offer private
+                            transportation service from Harwich Cruise Port at competitive and affordable rates. Book
+                            online in minutes and save up to 40% compared to other transfer companies.</span></p>
                     <p>&nbsp;</p>
-                    <p><span style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 1 –
-                            Closed</span><br><span style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal
-                            2 - Outside WHSmith</span><br><span
-                            style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 3 - <span>Outside
-                                WHSmith</span></span><br><span
-                            style="font-family: arial, helvetica, sans-serif;">Heathrow Terminal 4 - Outside Costa
-                            Coffee&nbsp;</span><br><span style="font-family: arial, helvetica, sans-serif;">Heathrow
-                            Terminal 5 - <span>Outside Costa Coffee&nbsp;</span></span></p>
+                    <h3><span style="font-family: arial, helvetica, sans-serif;"><strong><span
+                                    style="color: #e50914;">Overview Of Harwich Seaport</span></strong></span></h3>
+                    <p><span style="font-family: arial, helvetica, sans-serif;"><strong><span
+                                    style="color: #e50914;"><br></span></strong></span></p>
+                    <p><span style="font-family: arial, helvetica, sans-serif; color: #444444;">Harwich port is the
+                            smallest of the three main cruise ports that serve London, (Harwich, Southampton and Dover).
+                            It is a single berth, single terminal affair which even at the height of the summer season
+                            will only have a cruise ship every other day.It's located on the coast with the North Sea
+                            about 80 miles from London.</span></p>
+                    <p><span style="font-family: arial, helvetica, sans-serif; color: #444444;">Next to the cruise
+                            terminal there is a ferry terminal with large ferries going to the Netherlands and
+                            Scandinavia. Both ferry and cruise terminals are a small part of a much larger port complex.
+                            On the other side of the river from Harwich is Felixstowe, one of the UK's largest container
+                            ports.</span></p>
+                    <p>&nbsp;</p>
+                    <h3><span style="font-family: arial, helvetica, sans-serif;"><strong><span
+                                    style="color: #444444;">Ground Transportation from Harwich
+                                    Port</span></strong></span></h3>
+                    <p><span style="font-family: arial, helvetica, sans-serif;"><strong><span
+                                    style="color: #444444;"><br></span></strong></span></p>
+                    <p><span style="font-family: arial, helvetica, sans-serif; color: #444444;"><span
+                                style="font-family: arial, helvetica, sans-serif;">Outside the front entrance to the
+                                cruise terminal there is a spacious coach park. If you are not taking one of the cruise
+                                buses, you can travel from Harwich port by rail. There is a service from the platform
+                                adjacent to the Harwich cruise terminal to London Liverpool Street Station.A special
+                                cruise train is put on specially for cruise passengers. There are two stations at
+                                Harwich, Harwich Town and Harwich International.</span><br></span></p>
                 </div>
 
             </div>

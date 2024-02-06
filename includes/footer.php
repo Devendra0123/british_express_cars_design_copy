@@ -60,7 +60,7 @@ function googleTranslateElementInit() {
           <a href="heathrow-to-portsmouth-transfer.php">Heathrow to Portsmouth</a>
           |
 
-          <a href="heathrow-to-reading-transfer.php">Heathrow to Reading</a>
+          <a href="transfer-from-heathrow-to-reading.php">Heathrow to Reading</a>
           |
 
           <a href="oxford-to-heathrow-transfer.php">Oxford to Heathrow</a>
@@ -146,7 +146,7 @@ function googleTranslateElementInit() {
               </a>
             </li>
             <li>
-              <a href="city">Heathrow to City Airport Transfers
+              <a href="city.php">Heathrow to City Airport Transfers
               </a>
             </li>
           </ul>
