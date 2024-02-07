@@ -24,6 +24,7 @@
     <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
 
     <link rel="stylesheet" href="../css/bootstrap.min.css" async="" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.16/build/css/intlTelInput.css">
 
     <link rel="stylesheet" href="../lib/font-awesome-4.7.0/css/font-awesome.min.css" />
 
@@ -46,7 +47,9 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/api.js" async="" defer=""></script>
+    <script src="../js/intlTelInput.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.16/build/js/intlTelInput.min.js"></script>
 </head>
 <?php include "./includes/header2.php" ?>
 
@@ -88,7 +91,7 @@
                                                                 <i class="fa fa-briefcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fas fa-baby"></i> 0
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 0
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -142,7 +145,7 @@
                                                                 <i class="fa fa-briefcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fas fa-baby"></i> 0
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 0
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -195,7 +198,7 @@
                                                                 <i class="fa fa-briefcase"></i> 3
                                                             </li>
                                                             <li>
-                                                                <i class="fas fa-baby"></i> 1
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 1
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -248,7 +251,7 @@
                                                                 <i class="fa fa-briefcase"></i> 4
                                                             </li>
                                                             <li>
-                                                                <i class="fas fa-baby"></i> 2
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 2
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -301,7 +304,7 @@
                                                                 <i class="fa fa-briefcase"></i> 4
                                                             </li>
                                                             <li>
-                                                                <i class="fas fa-baby"></i> 2
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 2
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -355,7 +358,7 @@
                                                                 <i class="fa fa-briefcase"></i> 5
                                                             </li>
                                                             <li>
-                                                                <i class="fas fa-baby"></i> 2
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 2
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -409,7 +412,7 @@
                                                                 <i class="fa fa-briefcase"></i> 4
                                                             </li>
                                                             <li>
-                                                                <i class="fas fa-baby"></i> 2
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 2
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -462,7 +465,7 @@
                                                                 <i class="fa fa-briefcase"></i> 4
                                                             </li>
                                                             <li>
-                                                                <i class="fas fa-baby"></i> 3
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 3
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -533,11 +536,11 @@
 
 <script>
     function selectcar(carId) {
-       const bookingDetailDiv = document.querySelector('.booking-details');
-       const fleetDisplayDiv = document.querySelector(".fleet-display-section");
+        const bookingDetailDiv = document.querySelector('.booking-details');
+        const fleetDisplayDiv = document.querySelector(".fleet-display-section");
 
-       bookingDetailDiv.style.display = 'block'
-       fleetDisplayDiv.style.display = "none"
+        bookingDetailDiv.style.display = 'block'
+        fleetDisplayDiv.style.display = "none"
         // if (carId === '1') {
         //   document.getElementById('saloon_price').value = '248';
         // } else {
@@ -554,15 +557,22 @@
     }
 
     function backcar() {
-       const bookingDetailDiv = document.querySelector('.booking-details');
-       const fleetDisplayDiv = document.querySelector(".fleet-display-section");
+        const bookingDetailDiv = document.querySelector('.booking-details');
+        const fleetDisplayDiv = document.querySelector(".fleet-display-section");
 
-       bookingDetailDiv.style.display = 'none'
-       fleetDisplayDiv.style.display = "block"
+        bookingDetailDiv.style.display = 'none'
+        fleetDisplayDiv.style.display = "block"
 
     }
 
-    function proceedToConfirm(){
+    function proceedToConfirm() {
         window.location.href = "../payments.php";
     }
+
+    const input = document.querySelector("#tel_phone");
+    window.intlTelInput(input, {
+        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.16/build/js/utils.js",
+    });
+
+
 </script>

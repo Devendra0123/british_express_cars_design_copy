@@ -862,6 +862,10 @@ footer .links a:hover {
   font-weight: 400;
 }
 
+.via-point-field{
+  display: none;
+}
+
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
   position: absolute;

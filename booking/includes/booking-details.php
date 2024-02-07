@@ -51,21 +51,10 @@
                                                 <label class="col-sm-12 control-label">Contact Number
                                                     <span></span></label>
                                                 <div class="col-sm-12">
-                                                    <div class="intl-tel-input allow-dropdown">
-                                                        <div class="flag-container">
-                                                            <div class="selected-flag" role="combobox"
-                                                                aria-owns="country-listbox" tabindex="0"
-                                                                title="United Kingdom: +44">
-                                                                <div class="iti-flag gb"></div>
-                                                                <div class="iti-arrow"></div>
-                                                            </div>
-                                                            <!-- <?php include "./includes/country-select.php" ?> -->
-                                                        </div><input type="tel" class="form-control" id="tel_phone"
-                                                            name="full_number" required="" style="width: 100%;"
-                                                            autocomplete="off" data-intl-tel-input-id="0"
-                                                            placeholder="07400 123456"><input type="hidden"
-                                                            name="phone">
-                                                    </div>
+                                                    <input type="tel" class="form-control" id="tel_phone"
+                                                        name="full_number" required="" style="width: 100%;"
+                                                        autocomplete="off" data-intl-tel-input-id="0"
+                                                        placeholder="07400 123456">
                                                 </div>
                                             </div>
                                         </div>
@@ -340,8 +329,8 @@
                                                     name="accept_terms_conditions" onchange="valueChanged()" required=""
                                                     aria-required="true">
                                                 <label class="form-check-label" for="accept_tc"> Please check the box to
-                                                    accept the <a href="../terms.php"
-                                                        target="_blank">terms and conditions</a></label>
+                                                    accept the <a href="../terms.php" target="_blank">terms and
+                                                        conditions</a></label>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
@@ -395,8 +384,8 @@
                                     onclick="backcar()" style="cursor:pointer">Edit</a>
                             </h5>
                             <figure class="selected-fleet">
-                                <div id="carimage"><img src="../assets/images/saloon.png"
-                                        class="img-responsive" alt="Saloon Car"></div>
+                                <div id="carimage"><img src="../assets/images/saloon.png" class="img-responsive"
+                                        alt="Saloon Car"></div>
                             </figure>
                             <div class="total">
                                 <h3 class="clearfix" style="border-bottom:none: !important;"> Total<span
