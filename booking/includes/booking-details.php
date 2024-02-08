@@ -243,32 +243,50 @@
                                                 <label for="frominfo1">Pick Up Address* </label>
                                                 <input type="text" class="form-control" name="flight_from" required=""
                                                     value="" aria-required="true" id="flight_from"
-                                                    placeholder="Full address with postcode">
+                                                    placeholder="Full address">
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6">
-                                            <div class="form-group" id="frominfoid2" style="display: none;">
-                                                <label for="frominfo2">Pickup Postcode *</label>
-                                                <input type="text" class="form-control" id="from_address" placeholder=""
-                                                    name="from_address">
+                                            <div class="form-group" id="frominfoid1">
+                                                <label for="frominfo1">Pick Up Address line* </label>
+                                                <input type="text" class="form-control" name="flight_from" required=""
+                                                    value="" aria-required="true" id="flight_from"
+                                                    placeholder="Address line">
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Drop Off Location</label>
-                                                <input type="hidden" class="form-control" id="return_to" placeholder=""
-                                                    name="to_area" value="Stonehenge, Salisbury, UK" required="">
-                                                <input type="text" class="form-control" id="return_to_dummy"
-                                                    placeholder="" name="return_to_dummy" disabled="disabled"
-                                                    value="Stonehenge, Salisbury, UK">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group" id="frominfoid1">
+                                                <label for="frominfo1">Pick Up Post Code* </label>
+                                                <input type="text" class="form-control" name="flight_from" required=""
+                                                    value="" aria-required="true" id="flight_from"
+                                                    placeholder="postcode">
                                             </div>
                                         </div>
+
                                         <div class="col-md-6">
                                             <div class="form-group" id="toinfo1_label">
-                                                <label for="toinfo1">Dropoff Address *</label>
+                                                <label for="toinfo1">Drop off Address *</label>
                                                 <input type="text" class="form-control" name="to_address"
                                                     id="to_address" placeholder="Full address with postcode"
                                                     required="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group" id="toinfo1_label">
+                                                <label for="toinfo1">Drop off Address Line*</label>
+                                                <input type="text" class="form-control" name="to_address"
+                                                    id="to_address" placeholder="Full address with postcode"
+                                                    required="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group" id="frominfoid1">
+                                                <label for="frominfo1">Drop Off Post Code* </label>
+                                                <input type="text" class="form-control" name="flight_from" required=""
+                                                    value="" aria-required="true" id="flight_from"
+                                                    placeholder="postcode">
                                             </div>
                                         </div>
 

@@ -1,3 +1,12 @@
+<style>
+  .login_section{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+  }
+</style>
 
 <body class="main-template">
   <div class="top_header no-padding">
@@ -6,7 +15,8 @@
       <div class="row">
         <ul class="col-md-4 col-sm-12 social no-bottom-margin">
           <li>
-            <a href="https://www.facebook.com/britishexpresscars/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/britishexpresscars/" target="_blank"><i class="fa fa-facebook"
+                aria-hidden="true"></i></a>
           </li>
           <li>
             <a href="https://www.twitter.com/britishexpcars" target="_blank"><i class="fa fa-twitter"
@@ -18,6 +28,15 @@
           </li>
           <!-- <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
         </ul>
+
+        <div class="login_section">
+          <a href="">
+            <p style="color: white;" >Passenger Login</p>
+          </a>
+          <a href="">
+            <p style="color: white;">Driver Login</p>
+          </a>
+        </div>
       </div>
     </div>
     <!-- Container /- -->

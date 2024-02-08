@@ -877,6 +877,13 @@ footer .links a:hover {
   padding: 0;
 }
 
+.booking-wrapper {
+  padding-top: 45px;
+}
+.section-break {
+  padding: 30px 0 60px;
+}
+
 .register-content .form-check {
   padding-left: 1.25rem;
   margin-bottom: 8px;

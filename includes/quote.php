@@ -19,8 +19,8 @@
           <div onclick="showViaPointField()"
             style="display: flex; justify-content: center; align-items: center; gap: 5px; cursor:pointer;"
             class="add-via-label">
-            <i class="fa fa-plus" aria-hidden="true"></i>
-            <span style="font-size: 12px">ADD VIA</span>
+            <i class="fa fa-plus" aria-hidden="true" style="font-size: 15px;"></i>
+            <span style="font-size: 12px">Add Via</span>
           </div>
         </div>
 
@@ -94,8 +94,8 @@
                   <div onclick="showReturnViaPointField()"
                     style="display: flex; justify-content: center; align-items: center; gap: 5px; cursor:pointer;"
                     class="add-return-via-label">
-                    <i class="fa fa-plus" aria-hidden="true" style="color: black;"></i>
-                    <span style="font-size: 12px; color: black;">ADD VIA</span>
+                    <i class="fa fa-plus" aria-hidden="true" style="font-size: 15px;color: black;"></i>
+                    <span style="font-size: 12px; color: black;">Add Via</span>
                   </div>
                 </div>
 
@@ -104,10 +104,11 @@
                   <div style="">
                     <div class="easy-autocomplete"
                       style="position: relative; width: 372px; display:flex; align-items: center; justify-content: between">
-                      <input name="return-via" class="form-control" style="" placeholder="Enter airport, seaport, postcode"
-                        required="" autocomplete="off" />
+                      <input name="return-via" class="form-control" style=""
+                        placeholder="Enter airport, seaport, postcode" required="" autocomplete="off" />
 
-                      <span onclick="hideReturnViaPointFiled()" style="color: black; position: absolute; right: 10px; cursor: pointer">
+                      <span onclick="hideReturnViaPointFiled()"
+                        style="color: black; position: absolute; right: 10px; cursor: pointer">
                         <i class="fa fa-times" aria-hidden="true"
                           style="-webkit-text-stroke: 1px background-color;"></i>
                       </span>
@@ -134,10 +135,11 @@
           </div>
         </div>
       </div>
-      <button class="btn main-banner-btn btn-block getquotebtn" type="button" name="book_now11"
-        onclick="handleGetQuote()">
-        Get Quote
-      </button>
+      <a href="/british-express/booking/terminal.php">
+        <button class="btn main-banner-btn btn-block getquotebtn" type="button" name="book_now11">
+          Get Quote
+        </button>
+      </a>
     </form>
   </div>
 </div>

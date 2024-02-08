@@ -77,7 +77,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="fleet-desc">
-                                                <div class="row">
+                                                <div class="fleet-info-container">
                                                     <div class="col-sm-6 col-md-8">
                                                         <h3>Saloon</h3>
                                                         <ul class="list-inline details">
@@ -96,17 +96,25 @@
                                                         </ul>
                                                     </div>
 
-                                                    <div class="col-sm-6 col-md-4">
-                                                        <div class="desc one_way text-right" style="">
-                                                            <h2 class="rate">Total : £193 </h2> <input type="hidden"
-                                                                name="saloon_price" id="saloon_price" value="">
+                                                    <div class="price-section">
+
+                                                        <div class="two_way_price_container two_way text-right"
+                                                            style="">
+                                                            <p class="one_way_text">
+                                                                One way : <span>£193</span>
+                                                            </p>
+                                                            <p>
+                                                                Return : <span>£173</span>
+                                                            </p>
                                                         </div>
-                                                        <div class="desc two_way text-right" style="display: none">
-                                                            <h2 class="rate">Total : £274</h2>
+                                                        <div class="desc one_way text-right" style="">
+                                                            <h2 class="rate">Total : £366 </h2> <input type="hidden"
+                                                                name="saloon_price" id="saloon_price" value="">
                                                         </div>
                                                         <div class="price-wrap">
                                                             <div class="clearfix"></div>
                                                             <button type="button" class="btn btn-custom"
+                                                                style="font-size: 18px; font-weight: 600"
                                                                 onclick="selectcar('1')">
                                                                 Book Now
                                                             </button>
@@ -119,6 +127,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="quote-fleet">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
@@ -131,9 +140,9 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="fleet-desc">
-                                                <div class="row">
+                                                <div class="fleet-info-container">
                                                     <div class="col-sm-6 col-md-8">
-                                                        <h3>Executive</h3>
+                                                        <h3>Executive Saloon</h3>
                                                         <ul class="list-inline details">
                                                             <li>
                                                                 <i class="fa fa-user"></i> 3
@@ -150,18 +159,26 @@
                                                         </ul>
                                                     </div>
 
-                                                    <div class="col-sm-6 col-md-4">
-                                                        <div class="desc one_way text-right" style="">
-                                                            <h2 class="rate">Total : £238 </h2> <input type="hidden"
-                                                                name="saloon_price" id="saloon_price" value="">
+                                                    <div class="price-section">
+
+                                                        <div class="two_way_price_container two_way text-right"
+                                                            style="">
+                                                            <p class="one_way_text">
+                                                                One way : <span>£193</span>
+                                                            </p>
+                                                            <p>
+                                                                Return : <span>£173</span>
+                                                            </p>
                                                         </div>
-                                                        <div class="desc two_way text-right" style="display: none">
-                                                            <h2 class="rate">Total : £274</h2>
+                                                        <div class="desc one_way text-right" style="">
+                                                            <h2 class="rate">Total : £366 </h2> <input type="hidden"
+                                                                name="saloon_price" id="saloon_price" value="">
                                                         </div>
                                                         <div class="price-wrap">
                                                             <div class="clearfix"></div>
                                                             <button type="button" class="btn btn-custom"
-                                                                onclick="selectcar('2')">
+                                                                style="font-size: 18px; font-weight: 600"
+                                                                onclick="selectcar('1')">
                                                                 Book Now
                                                             </button>
                                                         </div>
@@ -173,6 +190,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="quote-fleet">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
@@ -184,37 +202,45 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="fleet-desc">
-                                                <div class="row">
+                                                <div class="fleet-info-container">
                                                     <div class="col-sm-6 col-md-8">
                                                         <h3>Estate</h3>
                                                         <ul class="list-inline details">
                                                             <li>
-                                                                <i class="fa fa-user"></i> 4
+                                                                <i class="fa fa-user"></i> 3
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-suitcase"></i> 3
+                                                                <i class="fa fa-suitcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-briefcase"></i> 3
+                                                                <i class="fa fa-briefcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-child" aria-hidden="true"></i> 1
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 0
                                                             </li>
                                                         </ul>
                                                     </div>
 
-                                                    <div class="col-sm-6 col-md-4">
-                                                        <div class="desc one_way text-right" style="">
-                                                            <h2 class="rate">Total : £203 </h2> <input type="hidden"
-                                                                name="saloon_price" id="saloon_price" value="">
+                                                    <div class="price-section">
+
+                                                        <div class="two_way_price_container two_way text-right"
+                                                            style="">
+                                                            <p class="one_way_text">
+                                                                One way : <span>£193</span>
+                                                            </p>
+                                                            <p>
+                                                                Return : <span>£173</span>
+                                                            </p>
                                                         </div>
-                                                        <div class="desc two_way text-right" style="display: none">
-                                                            <h2 class="rate">Total : £274</h2>
+                                                        <div class="desc one_way text-right" style="">
+                                                            <h2 class="rate">Total : £366 </h2> <input type="hidden"
+                                                                name="saloon_price" id="saloon_price" value="">
                                                         </div>
                                                         <div class="price-wrap">
                                                             <div class="clearfix"></div>
                                                             <button type="button" class="btn btn-custom"
-                                                                onclick="selectcar('0')">
+                                                                style="font-size: 18px; font-weight: 600"
+                                                                onclick="selectcar('1')">
                                                                 Book Now
                                                             </button>
                                                         </div>
@@ -226,48 +252,57 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="quote-fleet">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
                                     <figure class="fleet-img">
-                                        <img src="../assets/images/mpv.png" alt="MPV" class="img-responsive">
+                                        <img src="../assets/images/mvp.png" alt="MPV" class="img-responsive">
                                     </figure>
                                 </div>
                                 <div class="col-sm-8 col-md-8">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="fleet-desc">
-                                                <div class="row">
+                                                <div class="fleet-info-container">
                                                     <div class="col-sm-6 col-md-8">
                                                         <h3>MPV</h3>
                                                         <ul class="list-inline details">
                                                             <li>
-                                                                <i class="fa fa-user"></i> 4
+                                                                <i class="fa fa-user"></i> 3
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-suitcase"></i> 4
+                                                                <i class="fa fa-suitcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-briefcase"></i> 4
+                                                                <i class="fa fa-briefcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-child" aria-hidden="true"></i> 2
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 0
                                                             </li>
                                                         </ul>
                                                     </div>
 
-                                                    <div class="col-sm-6 col-md-4">
-                                                        <div class="desc one_way text-right" style="">
-                                                            <h2 class="rate">Total : £218 </h2> <input type="hidden"
-                                                                name="saloon_price" id="saloon_price" value="">
+                                                    <div class="price-section">
+
+                                                        <div class="two_way_price_container two_way text-right"
+                                                            style="">
+                                                            <p class="one_way_text">
+                                                                One way : <span>£193</span>
+                                                            </p>
+                                                            <p>
+                                                                Return : <span>£173</span>
+                                                            </p>
                                                         </div>
-                                                        <div class="desc two_way text-right" style="display: none">
-                                                            <h2 class="rate">Total : £274</h2>
+                                                        <div class="desc one_way text-right" style="">
+                                                            <h2 class="rate">Total : £366 </h2> <input type="hidden"
+                                                                name="saloon_price" id="saloon_price" value="">
                                                         </div>
                                                         <div class="price-wrap">
                                                             <div class="clearfix"></div>
                                                             <button type="button" class="btn btn-custom"
-                                                                onclick="selectcar('3')">
+                                                                style="font-size: 18px; font-weight: 600"
+                                                                onclick="selectcar('1')">
                                                                 Book Now
                                                             </button>
                                                         </div>
@@ -279,48 +314,57 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="quote-fleet">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
                                     <figure class="fleet-img">
-                                        <img src="../assets/images/mpv5.png" alt="Executive MPV" class="img-responsive">
+                                        <img src="../assets/images/Executive-MPV.png" alt="Executive MPV" class="img-responsive">
                                     </figure>
                                 </div>
                                 <div class="col-sm-8 col-md-8">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="fleet-desc">
-                                                <div class="row">
+                                                <div class="fleet-info-container">
                                                     <div class="col-sm-6 col-md-8">
                                                         <h3>Executive MPV</h3>
                                                         <ul class="list-inline details">
                                                             <li>
-                                                                <i class="fa fa-user"></i> 4
+                                                                <i class="fa fa-user"></i> 3
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-suitcase"></i> 4
+                                                                <i class="fa fa-suitcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-briefcase"></i> 4
+                                                                <i class="fa fa-briefcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-child" aria-hidden="true"></i> 2
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 0
                                                             </li>
                                                         </ul>
                                                     </div>
 
-                                                    <div class="col-sm-6 col-md-4">
-                                                        <div class="desc one_way text-right" style="">
-                                                            <h2 class="rate">Total : £278 </h2> <input type="hidden"
-                                                                name="saloon_price" id="saloon_price" value="">
+                                                    <div class="price-section">
+
+                                                        <div class="two_way_price_container two_way text-right"
+                                                            style="">
+                                                            <p class="one_way_text">
+                                                                One way : <span>£193</span>
+                                                            </p>
+                                                            <p>
+                                                                Return : <span>£173</span>
+                                                            </p>
                                                         </div>
-                                                        <div class="desc two_way text-right" style="display: none">
-                                                            <h2 class="rate">Total : £274</h2>
+                                                        <div class="desc one_way text-right" style="">
+                                                            <h2 class="rate">Total : £366 </h2> <input type="hidden"
+                                                                name="saloon_price" id="saloon_price" value="">
                                                         </div>
                                                         <div class="price-wrap">
                                                             <div class="clearfix"></div>
                                                             <button type="button" class="btn btn-custom"
-                                                                onclick="selectcar('4')">
+                                                                style="font-size: 18px; font-weight: 600"
+                                                                onclick="selectcar('1')">
                                                                 Book Now
                                                             </button>
                                                         </div>
@@ -332,11 +376,12 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="quote-fleet">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
                                     <figure class="fleet-img">
-                                        <img src="../assets/images/executive-7-seater.png" alt="MPV+"
+                                        <img src="../assets/images/MPV+.png" alt="MPV+"
                                             class="img-responsive">
                                     </figure>
                                 </div>
@@ -344,37 +389,45 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="fleet-desc">
-                                                <div class="row">
+                                                <div class="fleet-info-container">
                                                     <div class="col-sm-6 col-md-8">
                                                         <h3>MPV+</h3>
                                                         <ul class="list-inline details">
                                                             <li>
-                                                                <i class="fa fa-user"></i> 6
+                                                                <i class="fa fa-user"></i> 3
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-suitcase"></i> 5
+                                                                <i class="fa fa-suitcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-briefcase"></i> 5
+                                                                <i class="fa fa-briefcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-child" aria-hidden="true"></i> 2
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 0
                                                             </li>
                                                         </ul>
                                                     </div>
 
-                                                    <div class="col-sm-6 col-md-4">
-                                                        <div class="desc one_way text-right" style="">
-                                                            <h2 class="rate">Total : £243 </h2> <input type="hidden"
-                                                                name="saloon_price" id="saloon_price" value="">
+                                                    <div class="price-section">
+
+                                                        <div class="two_way_price_container two_way text-right"
+                                                            style="">
+                                                            <p class="one_way_text">
+                                                                One way : <span>£193</span>
+                                                            </p>
+                                                            <p>
+                                                                Return : <span>£173</span>
+                                                            </p>
                                                         </div>
-                                                        <div class="desc two_way text-right" style="display: none">
-                                                            <h2 class="rate">Total : £274</h2>
+                                                        <div class="desc one_way text-right" style="">
+                                                            <h2 class="rate">Total : £366 </h2> <input type="hidden"
+                                                                name="saloon_price" id="saloon_price" value="">
                                                         </div>
                                                         <div class="price-wrap">
                                                             <div class="clearfix"></div>
                                                             <button type="button" class="btn btn-custom"
-                                                                onclick="selectcar('7')">
+                                                                style="font-size: 18px; font-weight: 600"
+                                                                onclick="selectcar('1')">
                                                                 Book Now
                                                             </button>
                                                         </div>
@@ -386,11 +439,12 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="quote-fleet">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
                                     <figure class="fleet-img">
-                                        <img src="../assets/images/mpv6.png" alt="Executive MPV+"
+                                        <img src="../assets/images/Executive-MPV+.png" alt="Executive MPV+"
                                             class="img-responsive">
                                     </figure>
                                 </div>
@@ -398,37 +452,45 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="fleet-desc">
-                                                <div class="row">
+                                                <div class="fleet-info-container">
                                                     <div class="col-sm-6 col-md-8">
                                                         <h3>Executive MPV+</h3>
                                                         <ul class="list-inline details">
                                                             <li>
-                                                                <i class="fa fa-user"></i> 7
+                                                                <i class="fa fa-user"></i> 3
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-suitcase"></i> 7
+                                                                <i class="fa fa-suitcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-briefcase"></i> 4
+                                                                <i class="fa fa-briefcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-child" aria-hidden="true"></i> 2
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 0
                                                             </li>
                                                         </ul>
                                                     </div>
 
-                                                    <div class="col-sm-6 col-md-4">
-                                                        <div class="desc one_way text-right" style="">
-                                                            <h2 class="rate">Total : £288 </h2> <input type="hidden"
-                                                                name="saloon_price" id="saloon_price" value="">
+                                                    <div class="price-section">
+
+                                                        <div class="two_way_price_container two_way text-right"
+                                                            style="">
+                                                            <p class="one_way_text">
+                                                                One way : <span>£193</span>
+                                                            </p>
+                                                            <p>
+                                                                Return : <span>£173</span>
+                                                            </p>
                                                         </div>
-                                                        <div class="desc two_way text-right" style="display: none">
-                                                            <h2 class="rate">Total : £274</h2>
+                                                        <div class="desc one_way text-right" style="">
+                                                            <h2 class="rate">Total : £366 </h2> <input type="hidden"
+                                                                name="saloon_price" id="saloon_price" value="">
                                                         </div>
                                                         <div class="price-wrap">
                                                             <div class="clearfix"></div>
                                                             <button type="button" class="btn btn-custom"
-                                                                onclick="selectcar('5')">
+                                                                style="font-size: 18px; font-weight: 600"
+                                                                onclick="selectcar('1')">
                                                                 Book Now
                                                             </button>
                                                         </div>
@@ -440,6 +502,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="quote-fleet">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
@@ -451,37 +514,45 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="fleet-desc">
-                                                <div class="row">
+                                                <div class="fleet-info-container">
                                                     <div class="col-sm-6 col-md-8">
                                                         <h3>8 Seater</h3>
                                                         <ul class="list-inline details">
                                                             <li>
-                                                                <i class="fa fa-user"></i> 7
+                                                                <i class="fa fa-user"></i> 3
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-suitcase"></i> 8
+                                                                <i class="fa fa-suitcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-briefcase"></i> 4
+                                                                <i class="fa fa-briefcase"></i> 2
                                                             </li>
                                                             <li>
-                                                                <i class="fa fa-child" aria-hidden="true"></i> 3
+                                                                <i class="fa fa-child" aria-hidden="true"></i> 0
                                                             </li>
                                                         </ul>
                                                     </div>
 
-                                                    <div class="col-sm-6 col-md-4">
-                                                        <div class="desc one_way text-right" style="">
-                                                            <h2 class="rate">Total : £248 </h2> <input type="hidden"
-                                                                name="saloon_price" id="saloon_price" value="">
+                                                    <div class="price-section">
+
+                                                        <div class="two_way_price_container two_way text-right"
+                                                            style="">
+                                                            <p class="one_way_text">
+                                                                One way : <span>£193</span>
+                                                            </p>
+                                                            <p>
+                                                                Return : <span>£173</span>
+                                                            </p>
                                                         </div>
-                                                        <div class="desc two_way text-right" style="display: none">
-                                                            <h2 class="rate">Total : £274</h2>
+                                                        <div class="desc one_way text-right" style="">
+                                                            <h2 class="rate">Total : £366 </h2> <input type="hidden"
+                                                                name="saloon_price" id="saloon_price" value="">
                                                         </div>
                                                         <div class="price-wrap">
                                                             <div class="clearfix"></div>
                                                             <button type="button" class="btn btn-custom"
-                                                                onclick="selectcar('8')">
+                                                                style="font-size: 18px; font-weight: 600"
+                                                                onclick="selectcar('1')">
                                                                 Book Now
                                                             </button>
                                                         </div>
@@ -533,6 +604,42 @@
 
 </main>
 <?php include "./includes/footer2.php" ?>
+
+<style>
+    .fleet-info-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .price-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    .two_way_price_container {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        border: 1px solid gray;
+        white-space: nowrap;
+        border-radius: 4px;
+    }
+
+    .two_way_price_container p {
+        padding: 0 10px;
+        color: #e50914;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .two_way_price_container .one_way_text {
+        border-right: 2px solid gray;
+        color: teal;
+    }
+</style>
 
 <script>
     function selectcar(carId) {
