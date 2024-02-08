@@ -76,6 +76,24 @@
 
     $("#provider-remote1").easyAutocomplete(options);
 </script>
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+    // Set your publishable key
+    var stripe = Stripe('pk_live_0qSmEv4oxsK9B7K2VrKVAHs8');
+    
+    // Create an instance of Elements
+    var elements = stripe.elements();
+
+    // Create a Card Element with billing details
+    var card = elements.create('card');
+
+    // Mount the Card Element to the DOM
+    card.mount('#card-element');
+
+    const addressElement = elements.create('address', { mode: 'shipping' });
+    addressElement.mount('#address-element');
+    
+  </script>
 </body>
 
 </html>

@@ -64,57 +64,23 @@
                         <!--     <h1> Payment Infomation </h1>-->
                         <div class="container text-center">
                             <img src="./assets/images/stripe-card.png">
-                            <!-- <h3 class="text-center mb-5">Server Integration</h3> -->
-                            <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+
                             <br><br>
 
-
-                            <!--button
-        style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-        id="checkout-button-sku_FZztaGVr4KvTad"
-        role="link"
-        >
-       Continue to Payment
-        </button-->
-
-                            <button
-                                style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-                                id="checkout-button-sku_FZztaGVr4KvTad" role="link">
-                                Continue to Payment
-                            </button>
-
                             <div id="error-message"></div>
+
+                            <form id="payment-form" class="stripe-card-form">
+                                <!-- Stripe Card Element -->
+                                <div id="card-element"></div>
+                                <div id="address-element"></div>
+
+                                <button
+                                    style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+                                    id="checkout-button-sku_FZztaGVr4KvTad" role="link">
+                                    Continue to Payment
+                                </button>
+                            </form>
                         </div>
-
-
-
-                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-                        <script>
-                            //  const stripe = Stripe('pk_test_51N6BntSClcaMFadzBBa8VneTuOClxU2YQLPik7ByzpdbDqA5CMinLOvNd67uDJHuRov0Bi3piZp633Ns7yBAxB5R00Ivu63f2I');
-                            const stripe = Stripe('pk_live_0qSmEv4oxsK9B7K2VrKVAHs8');
-                            //var stripe = Stripe('pk_test_yv1qeadXZPEbBXoUKprzTfVE'); -- old test --
-
-                            //var CHECKOUT_SESSION_ID = "";
-                            //var checkoutButton = document.getElementById('checkout-button-sku_FZztaGVr4KvTad');
-                            //checkoutButton.addEventListener('click', function () {
-                            //   stripe.redirectToCheckout({
-
-                            //  sessionId: CHECKOUT_SESSION_ID
-                            // }).then(function (result) {
-
-                            //});
-                            //});
-
-                            $("#checkout-button-sku_FZztaGVr4KvTad").click(function () {
-                                stripe.redirectToCheckout({
-                                    sessionId: 'cs_live_a1YmJYQKCjvQO2zLH0MD8ccmIPwuyAFubFLHcKelAvcT9AjyUmKV3VAP1l'
-                                }).then(function (result) { });
-                            });
-
-                        </script>
-
-
                     </div>
                 </div>
 
@@ -191,6 +157,13 @@
 
     </div>
 </section>
-
 </main>
 <?php include "./includes/footer4.php" ?>
+
+<style>
+    .stripe-card-form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+</style>

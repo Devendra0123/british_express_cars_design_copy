@@ -2,52 +2,6 @@
 <!-- saved from url=(0037)https://www.britishexpresscars.co.uk/ -->
 <html lang="en">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-    <!-- Required meta tags -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <title>Airport Taxi With Child Seat - British Express Cars</title>
-
-    <meta name="title" content="Airport Taxi With Child Seat - British Express Cars">
-
-    <meta name="description" content="We offer reliable airport transfers with free baby/child seats ">
-
-    <meta name="keywords"
-        content="airport taxi with baby seat, gatwick airport taxi with baby seat, airport taxi with child seat, heathrow taxi with child seat, book taxi with baby seat london">
-
-    <!--<base href="https://www.britishexpresscars.co.uk/">-->
-    <base href="." />
-
-    <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
-
-    <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
-
-    <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
-
-
-    <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
-
-
-    <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
-    <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./css/style.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
-
-    <script src="./js/jquery.js"></script>
-    <script src="./js/api.js" async="" defer=""></script>
-
-</head>
 <?php include "./includes/header.php" ?>
 
 

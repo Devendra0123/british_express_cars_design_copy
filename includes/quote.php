@@ -4,7 +4,7 @@
       <h2>Get an instant quote</h2>
       <div class="form-field">
         <label for="exampleInput">Pick-up</label>
-        <div class="easy-autocomplete" style="width: 372px">
+        <div class="easy-autocomplete">
           <input id="provider-remote2" name="from" class="form-control" style=""
             placeholder="Enter airport, seaport, postcode" required="" autocomplete="off" />
 
@@ -20,16 +20,16 @@
             style="display: flex; justify-content: center; align-items: center; gap: 5px; cursor:pointer;"
             class="add-via-label">
             <i class="fa fa-plus" aria-hidden="true" style="font-size: 15px;"></i>
-            <span style="font-size: 12px">Add Via</span>
+            <span style="font-size: 12px; font-weight: 800;">Add Via</span>
           </div>
         </div>
 
-        <div class="form-field via-point-field" style="display: block;">
+        <div class="form-field via-point-field" style="display: none;">
           <label for="exampleInput">Via point</label>
 
           <div style="">
             <div class="easy-autocomplete"
-              style="position: relative; width: 372px; display:flex; align-items: center; justify-content: between">
+              style="position: relative;  display:flex; align-items: center; justify-content: between">
               <input name="via" class="form-control" style="" placeholder="Enter airport, seaport, postcode" required=""
                 autocomplete="off" />
 
@@ -49,7 +49,8 @@
       </div>
       <div class="form-field">
         <label for="exampleInput">Drop-off</label>
-        <div class="easy-autocomplete" style="width: 372px">
+        <div class="easy-autocomplete">
+          
           <input id="provider-remote1" name="to" class="form-control" style=""
             placeholder="Enter airport, seaport, postcode" required="" autocomplete="off" />
 
@@ -71,13 +72,13 @@
           </div>
 
           <!-- Return Fields -->
-          <div class=" col-cstm return-trip" style="display: block;">
+          <div class=" col-cstm return-trip" style="display: none;">
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12  col-cstm">
                 <div class="form-field">
                   <div class="form-field">
                     <label for="exampleInput">Pick-up</label>
-                    <div class="easy-autocomplete" style="width: 100%;"><input id="provider-remote3" name="returnfrom"
+                    <div class="easy-autocomplete" style="width: 100% !important;"><input id="provider-remote3" name="returnfrom"
                         class="form-control" style="" placeholder="Enter airport, seaport, postcode" required=""
                         autocomplete="off">
                       <div class="easy-autocomplete-container" id="eac-container-provider-remote3">
@@ -95,7 +96,7 @@
                     style="display: flex; justify-content: center; align-items: center; gap: 5px; cursor:pointer;"
                     class="add-return-via-label">
                     <i class="fa fa-plus" aria-hidden="true" style="font-size: 15px;color: black;"></i>
-                    <span style="font-size: 12px; color: black;">Add Via</span>
+                    <span style="font-size: 12px; color: black; font-weight: 800;">Add Via</span>
                   </div>
                 </div>
 
@@ -103,7 +104,7 @@
                   <label for="exampleInput">Via point</label>
                   <div style="">
                     <div class="easy-autocomplete"
-                      style="position: relative; width: 372px; display:flex; align-items: center; justify-content: between">
+                      style="position: relative; width: 100%; display:flex; align-items: center; justify-content: between">
                       <input name="return-via" class="form-control" style=""
                         placeholder="Enter airport, seaport, postcode" required="" autocomplete="off" />
 
@@ -160,7 +161,6 @@
   const returnViaPointField = document.querySelector(".return-via-point-field");
 
   function showViaPointField() {
-    addViaLabel.style.display = "none"
     $(".via-point-field").show(200);
   }
 
@@ -170,7 +170,6 @@
   }
 
   function showReturnViaPointField() {
-    addReturnViaLabel.style.display = "none"
     $(".return-via-point-field").show(200);
   }
 

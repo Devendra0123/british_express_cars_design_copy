@@ -577,7 +577,6 @@
                         <div class="route-wrapper">
                             <h5><img src="../assets/images/pin.svg"> Pick up </h5>
                             <p>
-                                <!-- On  at                         <br> -->
                                 Big Ben, London, UK
                             </p>
                         </div>

@@ -1,18 +1,83 @@
-<style>
-  .login_section{
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 10px;
-  }
-</style>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <!-- Required meta tags -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+
+  <title>London City Airport Transfers – British Express Cars </title>
+
+  <meta name="title" content="London City Airport Transfers – British Express Cars ">
+
+  <meta name="description"
+    content="Licensed taxi transfers to and from London City Airport, our service available 24 hours a day, 7 days a week. Click here now to book your taxi">
+
+  <meta name="keywords" content="airport taxi london, london city airport taxi, london city airport transfer">
+
+  <!--<base href="https://www.britishexpresscars.co.uk/">-->
+  <base href="." />
+
+  <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
+
+  <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
+
+  <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
+
+
+  <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
+
+  <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
+
+
+  <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
+  <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
+
+  <link rel="stylesheet" href="./css/style.css" async="" media="all" />
+
+  <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
+
+  <script src="./js/jquery.js"></script>
+  <script src="./js/api.js" async="" defer=""></script>
+
+  <style>
+    .top-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .login_section {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 10px;
+    }
+
+    .login_section_text {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      padding: 3px 10px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 4px;
+    }
+
+    a {
+      text-decoration: none !important;
+    }
+  </style>
+</head>
 
 <body class="main-template">
   <div class="top_header no-padding">
     <!-- Container -->
     <div class="container">
-      <div class="row">
+      <div class="row top-container">
         <ul class="col-md-4 col-sm-12 social no-bottom-margin">
           <li>
             <a href="https://www.facebook.com/britishexpresscars/" target="_blank"><i class="fa fa-facebook"
@@ -30,11 +95,13 @@
         </ul>
 
         <div class="login_section">
-          <a href="">
-            <p style="color: white;" >Passenger Login</p>
+          <a href="" style="" class="login_section_text">
+            <img src="./assets/images/passenger_icon.png" style="width: 19px; height: 19px; object-fit: contain;" />
+            <p style="">Passenger Login</p>
           </a>
-          <a href="">
-            <p style="color: white;">Driver Login</p>
+          <a href="" style="" class="login_section_text">
+            <img src="./assets/images/driver_icon.png" style="width: 19px; height: 19px; object-fit: contain;" />
+            <p style="">Driver Login</p>
           </a>
         </div>
       </div>
@@ -59,12 +126,12 @@
             <div class="top-menu">
               <ul>
                 <li>
-                  <a href="tel:02081111104">
-                    <img src="./assets/images/telephone.svg" /> 020 8111
-                    1104</a>
+                  <a href="tel:02081111104" style="display: flex; align-items: center;">
+                    <img src="./assets/images/telephone.svg" /> <span style="font-size: 19px;">020 8111
+                      1104</span></a>
                 </li>
                 <li>
-                  <a href="mailto:info@britishexpresscars.co.uk"><img
+                  <a href="mailto:info@britishexpresscars.co.uk" style="display: flex; align-items: center;"><img
                       src="./assets/images/gmail.svg" />info@britishexpresscars.co.uk</a>
                 </li>
               </ul>

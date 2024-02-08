@@ -2,52 +2,6 @@
 <!-- saved from url=(0037)https://www.britishexpresscars.co.uk/ -->
 <html lang="en">
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-  <!-- Required meta tags -->
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <<title>Contact British Express Cars | Call us for Heathrow taxi-Gatwick taxi | 020881111104</title>
-
-    <meta name="title" content="Contact British Express Cars | Call us for Heathrow taxi-Gatwick taxi | 020881111104">
-
-    <meta name="description"
-      content="Call us for your London airport taxi transfers. British Express Cars Contact details">
-
-    <meta name="keywords" content="contact british express cars, british express cars contact details ">
-
-    <!--<base href="https://www.britishexpresscars.co.uk/">-->
-    <base href="." />
-
-    <!-- <link rel="canonical" href="https://www.britishexpresscars.co.uk/" /> -->
-
-    <link rel="stylesheet" href="./css/bootstrap.min.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css" />
-
-    <link rel="stylesheet" href="./css/slick-theme.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./css/slick.css" async="" media="all" />
-
-
-    <link rel="stylesheet" href="./css/jquery-ui.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./css/jquery.timepicker.css" async="" media="all" />
-
-
-    <link rel="stylesheet" href="./css/dashboard.css" async="" media="all" />
-    <link rel="stylesheet" href="./css/fonts.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./css/style.css" async="" media="all" />
-
-    <link rel="stylesheet" href="./css/responsive.css" async="" media="all" />
-
-    <script src="./js/jquery.js"></script>
-    <script src="./js/api.js" async="" defer=""></script>
-
-</head>
 <?php include "./includes/header.php" ?>
 
 <div class="inner-sitemap">

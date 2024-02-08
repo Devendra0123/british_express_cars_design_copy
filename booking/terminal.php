@@ -75,18 +75,18 @@
                                         <p>We've matched one or more of your locations with these possible terminal:</p>
                                         <p class="meeting-point-heading mt-3 mb-3">Gatwick Airport</p>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="from"
+                                            <input class="form-check-input" type="checkbox" name="from"
                                                 id="flexRadioDefault2"
                                                 value="North Terminal, Departures Road, Horley, Gatwick, UK">
-                                            <label class="form-check-label" for="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault2">
                                                 Gatwick (North Terminal)
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="from"
+                                            <input class="form-check-input" type="checkbox" name="from"
                                                 id="flexRadioDefault3" value="South Terminal, Perimeter Road East, Horley, Gatwick, UK
 ">
-                                            <label class="form-check-label" for="flexRadioDefault2">
+                                            <label class="form-check-label" for="flexRadioDefault3">
                                                 Gatwick (South Terminal)
                                             </label>
                                         </div>
@@ -97,33 +97,33 @@
                                         <p>We've matched one or more of your locations with these possible terminal:</p>
                                         <p class="meeting-point-heading mt-3 mb-3">Heathrow Airport</p>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="to"
-                                                id="flexRadioDefault2"
+                                            <input class="form-check-input" type="checkbox" name="to"
+                                                id="flexRadioDefault4"
                                                 value="Terminal 2, Inner Ring East, Hounslow, UK">
-                                            <label class="form-check-label" for="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault4">
                                                 Heathrow (Terminal 2)
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="to"
-                                                id="flexRadioDefault3"
+                                            <input class="form-check-input" type="checkbox" name="to"
+                                                id="flexRadioDefault5"
                                                 value="Terminal 3, Nelson Road, Longford, Hounslow, UK">
-                                            <label class="form-check-label" for="flexRadioDefault2">
+                                            <label class="form-check-label" for="flexRadioDefault5">
                                                 Heathrow (Terminal 3)
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="to"
-                                                id="flexRadioDefault4" value="Terminal 4, Nelson Road, Hounslow, UK">
-                                            <label class="form-check-label" for="flexRadioDefault3">
+                                            <input class="form-check-input" type="checkbox" name="to"
+                                                id="flexRadioDefault6" value="Terminal 4, Nelson Road, Hounslow, UK">
+                                            <label class="form-check-label" for="flexRadioDefault6">
                                                 Heathrow (Terminal 4)
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="to"
-                                                id="flexRadioDefault5"
+                                            <input class="form-check-input" type="checkbox" name="to"
+                                                id="flexRadioDefault7"
                                                 value="Terminal 5, Wallis Road, Longford, Hounslow, UK">
-                                            <label class="form-check-label" for="flexRadioDefault4">
+                                            <label class="form-check-label" for="flexRadioDefault7">
                                                 Heathrow (Terminal 5)
                                             </label>
                                         </div>
@@ -140,33 +140,33 @@
                                         <p>We've matched one or more of your locations with these possible terminal:</p>
                                         <p class="meeting-point-heading mt-3 mb-3">Heathrow Airport</p>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="returnfrom"
-                                                id="flexRadioDefault2"
+                                            <input class="form-check-input" type="checkbox" name="returnfrom"
+                                                id="flexRadioDefault8"
                                                 value="Terminal 2, Inner Ring East, Hounslow, UK">
-                                            <label class="form-check-label" for="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault8">
                                                 Heathrow (Terminal 2)
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="returnfrom"
-                                                id="flexRadioDefault3"
+                                            <input class="form-check-input" type="checkbox" name="returnfrom"
+                                                id="flexRadioDefault9"
                                                 value="Terminal 3, Nelson Road, Longford, Hounslow, UK">
-                                            <label class="form-check-label" for="flexRadioDefault2">
+                                            <label class="form-check-label" for="flexRadioDefault9">
                                                 Heathrow (Terminal 3)
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="returnfrom"
-                                                id="flexRadioDefault4" value="Terminal 4, Nelson Road, Hounslow, UK">
-                                            <label class="form-check-label" for="flexRadioDefault3">
+                                            <input class="form-check-input" type="checkbox" name="returnfrom"
+                                                id="flexRadioDefault10" value="Terminal 4, Nelson Road, Hounslow, UK">
+                                            <label class="form-check-label" for="flexRadioDefault10">
                                                 Heathrow (Terminal 4)
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="returnfrom"
-                                                id="flexRadioDefault5"
+                                            <input class="form-check-input" type="checkbox" name="returnfrom"
+                                                id="flexRadioDefault11"
                                                 value="Terminal 5, Wallis Road, Longford, Hounslow, UK">
-                                            <label class="form-check-label" for="flexRadioDefault4">
+                                            <label class="form-check-label" for="flexRadioDefault11">
                                                 Heathrow (Terminal 5)
                                             </label>
                                         </div>
@@ -178,18 +178,18 @@
                                         <p>We've matched one or more of your locations with these possible terminal:</p>
                                         <p class="meeting-point-heading mt-3 mb-3">Gatwick Airport</p>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="returnto"
-                                                id="flexRadioDefault2"
+                                            <input class="form-check-input" type="checkbox" name="returnto"
+                                                id="flexRadioDefault12"
                                                 value="North Terminal, Departures Road, Horley, Gatwick, UK">
-                                            <label class="form-check-label" for="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault12">
                                                 Gatwick (North Terminal)
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="returnto"
-                                                id="flexRadioDefault3"
+                                            <input class="form-check-input" type="checkbox" name="returnto"
+                                                id="flexRadioDefault13"
                                                 value="South Terminal, Perimeter Road East, Horley, Gatwick, UK">
-                                            <label class="form-check-label" for="flexRadioDefault2">
+                                            <label class="form-check-label" for="flexRadioDefault13">
                                                 Gatwick (South Terminal)
                                             </label>
                                         </div>
