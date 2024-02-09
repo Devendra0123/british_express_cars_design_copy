@@ -66,19 +66,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <!--<div class="small" style="border: 1px #fad775 solid;border-radius: 5px;margin: 5px 0px 5px;padding: 20px;background-color: #fff9e5;margin-top: 30px;">
-               <p>
-                  <span style="font-weight: 700;"><i class="fas fa-exclamation-triangle yellow300" style="color: #e3b016;"></i>
-                  <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">COVID-19: Transfer service restored. </font>
-                  <font style="vertical-align: inherit;">The use of masks is mandatory for all passengers, including the driver. </font>
-                  <font style="vertical-align: inherit;">It is not possible to travel in the front seats. </font>
-                  <font style="vertical-align: inherit;">Vehicles are disinfected after each trip and cleaned every 24 hours.</font>
-                  </font>
-                  </span>
-               </p>
-            </div>
-         </div>-->
+
             </div>
         </div>
     </div>
@@ -93,7 +81,7 @@
                         <div class="baby-content">
                             <div class="col-md-12">
                                 <h2 class="h2-border-bottom-head" style="margin: 5px 0px 14px; text-align: left;"><span
-                                        style="color: #d62027; font-family: arial, helvetica, sans-serif;"><strong>Airport
+                                        style="color: #d62027; font-family: arial, helvetica, sans-serif;" class="description_title"><strong>Airport
                                             Transfer With Baby Seats</strong></span></h2>
                                 <p><span
                                         style="color: #d62027; font-family: arial, helvetica, sans-serif;"><strong><br></strong></span>

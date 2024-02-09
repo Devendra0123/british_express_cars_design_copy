@@ -91,13 +91,13 @@
                         <!-- Drop-off date and time -->
                         <div>
                             <h3 style="text-transform: capitalize; color: #e50914;">
-                                Select drop off date and time
+                                Select return pick up date and time
                             </h3>
 
                             <div class="date-time-wrapper">
                                 <!-- drop off date -->
                                 <div class="form-field">
-                                    <label for="landingdate">Drop Off Date *</label>
+                                    <label for="landingdate">Return Pick Up Date *</label>
                                     <input type="" class="form-control datepicker hasDatepicker" id="date"
                                         placeholder="Date" name="pickup_date" required="" min="" value=""
                                         autocomplete="off" style="padding-left: 35px !important;"
@@ -107,7 +107,7 @@
                                 </div>
                                 <!-- drop off time -->
                                 <div class="form-field">
-                                    <label for="landingtime">Drop Off Time *</label>
+                                    <label for="landingtime">Return Pick Up Time *</label>
                                     <input type="" class="form-control timepicker ui-timepicker-input" id="time"
                                         placeholder="Time" name="pick_minute" autocomplete="off" required=""
                                         style="padding-left: 35px !important;" value="" onchange="timecheck()">

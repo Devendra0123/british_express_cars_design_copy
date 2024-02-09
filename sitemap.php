@@ -120,7 +120,7 @@
 
                 <div class="sitemap-inner">
                     <div class="site-amp-title">
-                        <h2>Sitemap</h2>
+                        <h2 class="description_title">Sitemap</h2>
                     </div>
                     <ul class="sitemap-list">
 

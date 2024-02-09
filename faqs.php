@@ -78,9 +78,9 @@
             <div class="crm_editor fac_box_shad_2">
                 <!-- <h1>Frequently Asked Questions </h1> -->
 
-                <h1>Frequently Asked Questions</h1>
+                <h1 class="description_title">Frequently Asked Questions</h1>
                 <p>&nbsp;</p>
-                <h2>Company</h2>
+                <h2 class="description_title">Company</h2>
                 <p><strong>Q. Are you a licensed company?</strong></p>
                 <p>A. We are officially licensed by the Transport for London Taxi and Private Hire. Our licence number
                     is 01002</p>
@@ -99,7 +99,7 @@
                     cruise-port transfers, train station transfers, hotel transfers and transfers from and to any UK
                     destination.</p>
                 <p>&nbsp;</p>
-                <h2>Booking</h2>
+                <h2 class="description_title">Booking</h2>
                 <p><strong>Q. How do I make a Booking?</strong></p>
                 <p>A. You can make a booking on our instant online booking system, or you can also email us
                     on&nbsp;info@britishexpresscars.co.uk&nbsp;or call us on 0208 111 1104 or +44 (0) 208 111 1104.</p>
@@ -123,7 +123,7 @@
                 <p><strong>Q. What type of vehicle do you provide?</strong></p>
                 <p>A. Saloon, Executive Saloon, MPVs, Executive MPVs and 8 seater Minibus.</p>
                 <p>&nbsp;</p>
-                <h2>Cancellation &amp; Amendments</h2>
+                <h2 class="description_title">Cancellation &amp; Amendments</h2>
                 <p><strong>Q. What is your cancellation policy?</strong></p>
                 <p>A. A booking can be cancelled by giving us advance 12-hour notice. See Our <a
                         href="../../../terms">Terms &amp; Conditions</a></p>
@@ -132,7 +132,7 @@
                 <p>A. Yes, you can amend your booking by logging in to your profile. Or you can make amendment by
                     calling our customer service team on 0208 111 1104 or +44 (0) 208 111 1104</p>
                 <p>&nbsp;</p>
-                <h2>Payment &amp; Receipt</h2>
+                <h2 class="description_title">Payment &amp; Receipt</h2>
                 <p><strong>Q. What payment method do you accept?</strong></p>
                 <p>A. We accept both cash and credit or debit card. Payment can be taken through the site via PayPal or
                     by phone, call our 24/7 payment line on 0208 111 1104.</p>
@@ -144,7 +144,7 @@
                 <p>A. No. when you chose to pay on arrival, we will require small deposit paid in by card to secure the
                     booking.</p>
                 <p>&nbsp;</p>
-                <h2>Airport Pick-ups</h2>
+                <h2 class="description_title">Airport Pick-ups</h2>
                 <p><strong>Q. What should I do if my flight delayed or cancelled?</strong></p>
                 <p>A. We monitor flights using real time flight arrivals site. If your flight is cancelled call us
                     immediately so we can reschedule your booking.</p>
@@ -164,31 +164,6 @@
                     be charged at 30p per minutes. There are no additional charges for flight delays.</p>
 
             </div>
-            <!-- <div class="why-choose-wrapper">
-                <div class="row">
-                    <div class="col-md-4 ">
-                        <div class="whychoose-content">
-                            <img src="assets/image/landing-ico1.png">
-                            <h4>No extra for flight delays</h4>
-                            <p>We monitor the arrival and departure time of flights to ensure the cars reach the airport right on schedule.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="whychoose-content">
-                            <img src="assets/image/landing-ico2.png">
-                            <h4>Free meet &amp; greet</h4>
-                            <p>Our ‘Meet & Greet’ service ensures that our driver will be there to greet you at your arrival.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="whychoose-content">
-                            <img src="assets/image/landing-ico3.png">
-                            <h4>Free waiting time</h4>
-                            <p>We allow free waiting time of 30 minutes at airports, and  10 minutes at hotel, address  and other places.</p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </section>
 

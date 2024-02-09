@@ -3,7 +3,17 @@
     <form id="point-to-points" method="post" class="quote p-4" action="testurl.php">
       <h2>Get an instant quote</h2>
       <div class="form-field">
-        <label for="exampleInput">Pick-up</label>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <label for="exampleInput">Pick-up</label>
+          <div style="display: flex; justify-content: flex-end;">
+            <div onclick="showViaPointField()"
+              style="display: flex; justify-content: center; align-items: center; gap: 5px; cursor:pointer;"
+              class="add-via-label">
+              <i class="fa fa-plus" aria-hidden="true" style="font-size: 15px;"></i>
+              <span style="font-size: 12px; font-weight: 800;">Add Via</span>
+            </div>
+          </div>
+        </div>
         <div class="easy-autocomplete">
           <input id="provider-remote2" name="from" class="form-control" style=""
             placeholder="Enter airport, seaport, postcode" required="" autocomplete="off" />
@@ -15,15 +25,6 @@
       </div>
       <!-- Via point -->
       <div style="width: 100%;">
-        <div style="width: 100%; display: flex; justify-content: flex-end;">
-          <div onclick="showViaPointField()"
-            style="display: flex; justify-content: center; align-items: center; gap: 5px; cursor:pointer;"
-            class="add-via-label">
-            <i class="fa fa-plus" aria-hidden="true" style="font-size: 15px;"></i>
-            <span style="font-size: 12px; font-weight: 800;">Add Via</span>
-          </div>
-        </div>
-
         <div class="form-field via-point-field" style="display: none;">
           <label for="exampleInput">Via point</label>
 
@@ -50,7 +51,7 @@
       <div class="form-field">
         <label for="exampleInput">Drop-off</label>
         <div class="easy-autocomplete">
-          
+
           <input id="provider-remote1" name="to" class="form-control" style=""
             placeholder="Enter airport, seaport, postcode" required="" autocomplete="off" />
 
@@ -77,10 +78,20 @@
               <div class="col-md-12 col-sm-12 col-xs-12  col-cstm">
                 <div class="form-field">
                   <div class="form-field">
-                    <label for="exampleInput">Pick-up</label>
-                    <div class="easy-autocomplete" style="width: 100% !important;"><input id="provider-remote3" name="returnfrom"
-                        class="form-control" style="" placeholder="Enter airport, seaport, postcode" required=""
-                        autocomplete="off">
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                      <label for="exampleInput">Pick-up</label>
+                      <div style="display: flex; justify-content: flex-end;">
+                        <div onclick="showReturnViaPointField()"
+                          style="display: flex; justify-content: center; align-items: center; gap: 5px; cursor:pointer;"
+                          class="add-return-via-label">
+                          <i class="fa fa-plus" aria-hidden="true" style="font-size: 15px;color: black;"></i>
+                          <span style="font-size: 12px; color: black; font-weight: 800;">Add Via</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="easy-autocomplete" style="width: 100% !important;"><input id="provider-remote3"
+                        name="returnfrom" class="form-control" style="" placeholder="Enter airport, seaport, postcode"
+                        required="" autocomplete="off">
                       <div class="easy-autocomplete-container" id="eac-container-provider-remote3">
                         <ul></ul>
                       </div>
@@ -91,15 +102,6 @@
               </div>
               <!-- Via point -->
               <div class="col-md-12 col-sm-12 col-xs-12  col-cstm">
-                <div style="width: 100%; display: flex; justify-content: flex-end;">
-                  <div onclick="showReturnViaPointField()"
-                    style="display: flex; justify-content: center; align-items: center; gap: 5px; cursor:pointer;"
-                    class="add-return-via-label">
-                    <i class="fa fa-plus" aria-hidden="true" style="font-size: 15px;color: black;"></i>
-                    <span style="font-size: 12px; color: black; font-weight: 800;">Add Via</span>
-                  </div>
-                </div>
-
                 <div class="form-field return-via-point-field" style="display: block;">
                   <label for="exampleInput">Via point</label>
                   <div style="">

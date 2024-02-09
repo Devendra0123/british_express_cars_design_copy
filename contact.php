@@ -18,7 +18,7 @@
 <section class="contact-info section-break" style="padding: 10px 0 30px;">
   <div class="container">
     <!-- <h3>Contact us</h3> -->
-    <h2 style="margin: 0;font-weight: bold;font-size: 22px;color: #e50914;">Contact us</h2>
+    <h2 style="margin: 0;font-weight: bold;font-size: 22px;color: #e50914;" class="description_title">Contact us</h2>
     <div class="row">
       <div class="col-md-7">
         <!-- Default form contact -->

@@ -270,10 +270,27 @@ function googleTranslateElementInit() {
   if (url[3] == "british-express") {
     $(".main-template").addClass("british-template");
     $(".main-template").removeClass("travel-template");
+    $(".travel_bird_logo").hide();
   }
   else {
-    $(".main-template").removeClass("british-template");
-    $(".main-template").addClass("travel-template");
+    const travel_bird_primary_color = "#17a2b8";
+    const travel_bird_yellow = "#FFCD22";
+
+     $(".main-template").removeClass("british-template");
+     $(".main-template").addClass("travel-template");
+    // $(".british_express_logo").hide();
+    // $(".top_header").css("background-color", travel_bird_primary_color);
+    // $(".header").css("border-top", "3px solid #17a2b8");
+    // $(".main-banner").css("background", "url(./assets/images/banner.png)");
+    // $(".main-banner-btn").css("background-color", "#17a2b8 !important");
+    // $(".app_download_section1").css("background-image", "linear-gradient(135deg, #17a2b8, #FFFFFF)");
+    // $(".app_download_section2").css("background-image", "linear-gradient(135deg, #17a2b8, #FFFFFF)");
+    // $(".description_title").css("color", travel_bird_primary_color);
+    // $(".licensed_driver_icon").attr("src", "./assets/images/licensed_drivers_tbc.png");
+    // $(".price_guaranteed_icon").attr("src", "./assets/images/price_guaranteed_tbc.png");
+    // $(".waiting_time_icon").attr("src", "./assets/images/waiting_time.png");
+    // $(".world_around_us_container").css("background", travel_bird_primary_color);
+    // $(".world_around_us_container").css("background", travel_bird_primary_color);
   }
 
   var options = {

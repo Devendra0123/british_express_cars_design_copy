@@ -3,6 +3,13 @@ body {
   padding: 0;
   font-family: Muli, sans-serif;
 }
+
+:root {
+  --british_express_primary_color: #e60912;
+  --travel_bird_primary_color: #17a2b8;
+  --travel_bird_yellow: #ffcd22;
+}
+
 .app_download_section1,
 .app_download_section2 {
   width: 100%;
@@ -15,7 +22,8 @@ body {
   position: relative;
 }
 
-.app_download_section1, .app_download_section2 {
+.app_download_section1,
+.app_download_section2 {
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
@@ -862,7 +870,7 @@ footer .links a:hover {
   font-weight: 400;
 }
 
-.via-point-field{
+.via-point-field {
   display: none;
 }
 
@@ -3865,7 +3873,7 @@ header {
 .main-banner-btn {
   border-radius: 5px;
   border: 0;
-  background-color: #1bcd73 !important;
+  background-color: #1bcd73;
   color: #fff;
   font-weight: 700;
   padding: 7px 24px;
@@ -4418,4 +4426,59 @@ ul.list-footer-style li {
   height: 200px;
   z-index: 99999;
   position: relative;
+}
+
+.login_btn_container{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+/* British Express cars */
+.british-template .travel_bird_logo {
+  display: none;
+}
+
+.british-template .main-banner {
+  background: url("../assets/images/1_blog_bann-image.jpg") no-repeat center top;
+}
+
+.british-template .description_title {
+  color: var(--british_express_primary_color);
+}
+
+.british-template .licensed_driver_icon_tbc,.british-template .price_guaranteed_icon_tbc,.british-template .waiting_time_icon_tbc {
+  display: none;
+ }
+/* travel Bird CSS */
+
+.travel-template .top_header {
+  background-color: var(--travel_bird_primary_color);
+}
+
+.travel-template .header {
+  border-top: 3px solid #17a2b8;
+}
+
+.travel-template .british_express_logo {
+  display: none;
+}
+
+.travel-template .main-banner {
+  background: url("../assets/images/banner.png");
+}
+
+.travel-template .main-banner-btn {
+  background-color: #17a2b8;
+}
+
+.travel-template .app_download_section1, .travel-template .app_download_section2 {
+  background-image: linear-gradient(135deg, #17a2b8, #FFFFFF);
+}
+.travel-template .description_title {
+  color: var(--travel_bird_primary_color);
+}
+.travel-template .licensed_driver_icon_bec,.travel-template .price_guaranteed_icon_bec, .travel-template .waiting_time_icon_bec {
+ display: none;
 }

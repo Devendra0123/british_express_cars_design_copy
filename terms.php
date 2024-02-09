@@ -63,12 +63,7 @@
                         </ol>
                 </nav>
         </div>
-</div><!-- <div class="inner-sitemap">
-    <div class="container">
-        <h2 style="margin: 0;font-weight: bold;font-size: 22px;color: #0e8ab9;">Terms and Condition</h2>
-    </div>
-</div> -->
-
+</div>
 
 <section class="section-break" style="padding: 10px 0 30px;">
         <div class="container">
@@ -76,9 +71,9 @@
                 <div class="crm_editor fac_box_shad_2">
                         <!-- <h1>Terms and Condition</h1> -->
 
-                        <h1><span style="color: #e50914;">Terms and Condition</span></h1>
+                        <h1><span style="color: #e50914;" class="description_title">Terms and Condition</span></h1>
                         <p>&nbsp;</p>
-                        <h2>Company</h2>
+                        <h2 class="description_title">Company</h2>
                         <p><span style="color: #444444;">Online Airport Transfers Ltd (Trading as British Express Cars,
                                         company
                                         registration number in England and Wales 11664764) licensed by Transport for
@@ -105,7 +100,7 @@
                                 principal with the passengers to provide the journey which is the subject of the
                                 booking.</p>
                         <p>&nbsp;</p>
-                        <h2><strong>Liability</strong></h2>
+                        <h2 class="description_title"><strong>Liability</strong></h2>
                         <p>Online Airport transfers ltd. will ensure you that once your booking request is accepted, we
                                 are liable
                                 to provide the service as requested by the passenger. Which means we will be on time for
@@ -116,7 +111,7 @@
                         <p>As a company, we are responsible for all financial transactions in relation to your booking.
                         </p>
                         <p>&nbsp;</p>
-                        <h2>Prices &amp; Charges</h2>
+                        <h2 class="description_title">Prices &amp; Charges</h2>
                         <p><span style="color: #444444;">All prices are in GBP and are inclusive of VAT (where
                                         applicable).</span>
                         </p>
@@ -134,7 +129,7 @@
                                         fares might
                                         reviewed if it’s not been calculated correctly by the google API. </span></p>
                         <p>&nbsp;</p>
-                        <h2>Bookings</h2>
+                        <h2 class="description_title">Bookings</h2>
                         <p><span style="color: #444444;">Bookings prior to pick up within 6hrs, please call us on 020
                                         8111 1104
                                         overseas (+44 (0)20 8111 1104).</span></p>
@@ -145,7 +140,7 @@
                                         AM) need to
                                         pay in advance using our secure credit/debit card payment facility.</span></p>
                         <p>&nbsp;</p>
-                        <h2>Booking Cancellations</h2>
+                        <h2 class="description_title">Booking Cancellations</h2>
                         <p><span style="color: #444444;">A booking can be cancelled in advance by giving us 12 hours’
                                         notice. A fee
                                         of £6.00 will be deducted for any pre-paid transfers which are cancelled to
@@ -155,7 +150,7 @@
                                         not be
                                         refunded.</span></p>
                         <p>&nbsp;</p>
-                        <h2>No Show</h2>
+                        <h2 class="description_title">No Show</h2>
                         <p><span style="color: #444444;">No show is defined as follows: If passenger books a private
                                         hire car with
                                         us and failed to meet the driver on pick up time, this will include home, hotel
@@ -180,7 +175,7 @@
                                         refunded in the
                                         event of a no show.</span></p>
                         <p>&nbsp;</p>
-                        <h2>Liabilities</h2>
+                        <h2 class="description_title">Liabilities</h2>
                         <p>The company accept no liability for the following: Severe traffic delays, road closures,
                                 extreme and poor
                                 weather conditions and any situation caused by the unforeseen situation.</p>
@@ -192,7 +187,7 @@
                                 or liable for
                                 their usage.</p>
                         <p>&nbsp;</p>
-                        <h2>Airport Pickups</h2>
+                        <h2 class="description_title">Airport Pickups</h2>
                         <p><span>Meet and greet service is provided on all airport pickups. The driver will meet the
                                         passengers in
                                         the airport arrivals hall with a name board.</span></p>
@@ -228,10 +223,10 @@
                                                 considered as a no
                                                 show.</span></span></p>
                         <p>&nbsp;</p>
-                        <h2>Payments</h2>
+                        <h2 class="description_title">Payments</h2>
                         <p><span style="color: #444444;">Pay in advance using Credit or Debit card.</span></p>
                         <p>&nbsp;</p>
-                        <h2>Waiting Time Charges</h2>
+                        <h2 class="description_title">Waiting Time Charges</h2>
                         <p><span style="color: #444444;">Pickups from the airports and cruise ports are allowed 45
                                         minutes free from
                                         landing or docking time. Any further waiting time will be charged at 40p per
@@ -244,7 +239,7 @@
                                         added to the fare
                                         quoted.</span></p>
                         <p>&nbsp;</p>
-                        <h2>Sessional Fares</h2>
+                        <h2 class="description_title">Sessional Fares</h2>
                         <p><span style="color: #444444;">Our Prices will be 50% higher on the following dates; 24th,
                                         25th, 26th,
                                         31st December and 1st January. This is due to limited drivers available for work

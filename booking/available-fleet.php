@@ -319,7 +319,8 @@
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
                                     <figure class="fleet-img">
-                                        <img src="../assets/images/Executive-MPV.png" alt="Executive MPV" class="img-responsive">
+                                        <img src="../assets/images/Executive-MPV.png" alt="Executive MPV"
+                                            class="img-responsive">
                                     </figure>
                                 </div>
                                 <div class="col-sm-8 col-md-8">
@@ -381,8 +382,7 @@
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
                                     <figure class="fleet-img">
-                                        <img src="../assets/images/MPV+.png" alt="MPV+"
-                                            class="img-responsive">
+                                        <img src="../assets/images/MPV+.png" alt="MPV+" class="img-responsive">
                                     </figure>
                                 </div>
                                 <div class="col-sm-8 col-md-8">
@@ -575,22 +575,54 @@
                         <h3 class="title">Booking Summary</h3>
                         <h5>&nbsp; &nbsp; Outbound Journey</h5>
                         <div class="route-wrapper">
-                            <h5><img src="../assets/images/pin.svg"> Pick up </h5>
+                            <h5><img src="../assets/images/pin.svg"> Landing </h5>
                             <p>
-                                Big Ben, London, UK
+                                <!-- On  at                         <br> -->
+                                Terminal 2, Inner Ring East, Hounslow, UK
                             </p>
                         </div>
                         <div class="route-wrapper">
                             <h5><img src="../assets/images/pin.svg"> Drop Off </h5>
-                            <p>Stonehenge, Salisbury, UK</p>
+                            <p>Birmingham, UK</p>
                         </div>
 
                         <div class="route-wrapper">
                             <h5><img src="../assets/images/map.svg">Est. Distance &amp;
                                 Duration</h5>
-                            <p>88 mile(s),1 hour 51 mins</p>
+                            <p>116 mile(s),1 hour 59 mins</p>
                         </div>
 
+                        <hr>
+                        <h5>&nbsp; &nbsp; Return Journey</h5>
+                        <div class="route-wrapper">
+                            <h5><img src="../assets/images/pin.svg"> Pick up </h5>
+                            <p>
+                                <!-- 0000-00-00 at 00:00  -->
+                                Birmingham, UK
+                            </p>
+                        </div>
+                        <div class="route-wrapper">
+                            <h5><img src="../assets/images/pin.svg"> Drop Off </h5>
+                            <p>Terminal 2, Inner Ring East, Hounslow, UK</p>
+                        </div>
+                        <div class="route-wrapper">
+                            <h5><img src="../assets/images/map.svg">Est. Distance &amp;
+                                Duration</h5>
+                            <p>116 mile(s),1 hour 59 mins</p>
+                        </div>
+                        <hr>
+
+
+
+                        <div class="route-wrapper">
+                            <h5><img src="../assets/images/clock.svg"><strong>The price
+                                    includes</strong></h5>
+                            <p style="font-size: 13px;">* Meet and Greet on Arrivals.</p>
+                            <p style="font-size: 13px;">* Car Parking Charges.</p>
+                            <p style="font-size: 13px;">* 30 Minutes Waiting Time.</p>
+                            <p style="font-size: 13px;">* Flight Monitoring for Delays.</p>
+
+                        </div>
                     </div>
                 </div>
             </div>

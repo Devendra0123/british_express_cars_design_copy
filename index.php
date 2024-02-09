@@ -5,14 +5,7 @@
 <?php include "./includes/header.php" ?>
 
 <section class="banner">
-  <div class="main-banner one" style="
-            background: url(https://www.britishexpresscars.co.uk/media/1_blog_bann-image.jpg)
-              no-repeat center top;
-          ">
-    <!--            <figure>-->
-    <!--                <img src="assets/image/banner.webp" class="img-fluid" alt="inner-banner">-->
-    <!--            </figure>-->
-
+  <div class="main-banner one">
     <style>
       .return-trip {
         color: #fff;
@@ -71,19 +64,6 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <!--<div class="small" style="border: 1px #fad775 solid;border-radius: 5px;margin: 5px 0px 5px;padding: 20px;background-color: #fff9e5;margin-top: 30px;">
-               <p>
-                  <span style="font-weight: 700;"><i class="fas fa-exclamation-triangle yellow300" style="color: #e3b016;"></i>
-                  <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">COVID-19: Transfer service restored. </font>
-                  <font style="vertical-align: inherit;">The use of masks is mandatory for all passengers, including the driver. </font>
-                  <font style="vertical-align: inherit;">It is not possible to travel in the front seats. </font>
-                  <font style="vertical-align: inherit;">Vehicles are disinfected after each trip and cleaned every 24 hours.</font>
-                  </font>
-                  </span>
-               </p>
-            </div>
-         </div>-->
       </div>
     </div>
   </div>
@@ -93,7 +73,7 @@
   <div class="container">
     <div class="heading">
       <h2 style="text-align: left">
-        <span style="font-family: arial, helvetica, sans-serif"><span style="color: #e50914">London Airport
+        <span style="font-family: arial, helvetica, sans-serif"><span class="description_title">London Airport
             Transfers</span></span>
       </h2>
       <p style="text-align: left">
@@ -116,7 +96,10 @@
       <div class="row">
         <div class="col-md-4">
           <div class="whychoose-content">
-            <img src="./assets/images/why1.png" />
+            <!-- for bec -->
+            <img src="./assets/images/why1.png" class="licensed_driver_icon_bec" />
+            <!-- for tbc -->
+            <img src="./assets/images/licensed_drivers_tbc.png" class="licensed_driver_icon_tbc" />
             <h4>Licensed Drivers</h4>
             <p>
               You always know your driver; all drivers are carefully
@@ -126,7 +109,10 @@
         </div>
         <div class="col-md-4">
           <div class="whychoose-content">
-            <img src="./assets/images/why2.png" />
+            <!-- for bec -->
+            <img src="./assets/images/why2.png" class="price_guaranteed_icon_bec" />
+            <!-- for tbc -->
+            <img src="./assets/images/price_guaranteed_tbc.png" class="price_guaranteed_icon_tbc" />
             <h4>Best Price Guaranteed</h4>
             <p>
               There are no hidden surprises with us, affordable
@@ -136,7 +122,10 @@
         </div>
         <div class="col-md-4">
           <div class="whychoose-content">
-            <img src="./assets/images/why3.png" />
+            <!-- for bec -->
+            <img src="./assets/images/why3.png" class="waiting_time_icon_bec" />
+            <!-- for tbc -->
+            <img src="./assets/images/waiting_time.png" class="waiting_time_icon_tbc" />
             <h4>Free Waiting Time</h4>
             <p>
               We allow free waiting time of 30 minutes at airport and
@@ -152,7 +141,7 @@
           background: linear-gradient(to right, #e50914, #e50914);
           padding: 50px 15px;
           color: #fff;
-        ">
+        " class="world_around_us_container">
   <div class="container">
     <div class="heading">
       <h2 style="text-align: center; color: #fff">

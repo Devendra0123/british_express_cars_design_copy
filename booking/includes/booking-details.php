@@ -38,10 +38,9 @@
                                                 <label class="col-sm-12 control-label">Contact Number
                                                     <span></span></label>
                                                 <div class="col-sm-12">
-                                                    <input type="tel" class="form-control" id="tel_phone"
-                                                        name="full_number" required="" style="width: 100%;"
-                                                        autocomplete="off" data-intl-tel-input-id="0"
-                                                        placeholder="07400 123456">
+                                                    <input type="tel" class="form-control" id="" name="full_number"
+                                                        required="" style="width: 100%;" autocomplete="off"
+                                                        data-intl-tel-input-id="0" placeholder="07400 123456">
                                                 </div>
                                             </div>
                                         </div>
@@ -50,14 +49,15 @@
                                 </div>
                                 <hr>
                                 <div class="form-check r-input col-sm-6">
-                                    <input type="checkbox" class="form-check-input" id="accept_tc1" name="check_return"
-                                        value="return" onchange="valueC()" required="" aria-required="true"
+                                    <input type="checkbox" style="background: #fff;" class="form-check-input" id="accept_tc1"
+                                        name="lead_passenger_check" value="return"
+                                        onchange="handleLeadPassengerDisplay()" required="" aria-required="true"
                                         data-gtm-form-interact-field-id="0">
                                     <label class="form-check-label" for="accept_tc1"> Lead Passenger?</label>
                                 </div>
 
                                 <!-- Lead Passenger -->
-                                <div style="margin-top: 30px">
+                                <div style="margin-top: 30px; display: none" class="lead_passenger">
                                     <h3 class="sec-title">Lead Passenger</h3>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -89,10 +89,9 @@
                                                     <label class="col-sm-12 control-label">Contact Number
                                                         <span></span></label>
                                                     <div class="col-sm-12">
-                                                        <input type="tel" class="form-control" id="tel_phone"
-                                                            name="full_number" required="" style="width: 100%;"
-                                                            autocomplete="off" data-intl-tel-input-id="0"
-                                                            placeholder="07400 123456">
+                                                        <input type="tel" class="form-control" id="" name="full_number"
+                                                            required="" style="width: 100%;" autocomplete="off"
+                                                            data-intl-tel-input-id="0" placeholder="07400 123456">
                                                     </div>
                                                 </div>
                                             </div>
@@ -720,3 +719,13 @@
         font-weight: 700;
     }
 </style>
+
+<script>
+    function handleLeadPassengerDisplay() {
+        if ($("input[name='lead_passenger_check']").is(":checked")) {
+            $(".lead_passenger").show()
+        } else {
+            $(".lead_passenger").hide()
+        }
+    }
+</script>

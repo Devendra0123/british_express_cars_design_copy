@@ -74,7 +74,7 @@
         <div class="crm_editor fac_box_shad_2">
             <!-- <h1>Privacy Policy</h1> -->
 
-            <h1><span style="color: #e50914;">Privacy Policy</span></h1>
+            <h1><span style="color: #e50914;" class="description_title">Privacy Policy</span></h1>
             <p>&nbsp;</p>
             <p><span style="color: #444444;">Online Airport Transfers Ltd, we are committed to protect and respect your
                     privacy. This policy sets out how we collect, treat any information provided by you, under the new
@@ -85,11 +85,11 @@
             <p><span style="color: #444444;">We may choose to change its privacy policy from time to time, so we advise
                     that our customers check this page regularly.</span></p>
             <p>&nbsp;</p>
-            <h2><span style="color: #e50914;">Card payment</span></h2>
+            <h2><span style="color: #e50914;" class="description_title">Card payment</span></h2>
             <p><span style="color: #444444;">Card payment are processed by Stripe and PayPal. Please click the link
                     below for more information.</span></p>
             <p>&nbsp;</p>
-            <h2><span style="color: #e50914;">How do you protect my information?</span></h2>
+            <h2><span style="color: #e50914;" class="description_title">How do you protect my information?</span></h2>
             <ul>
                 <li><span style="color: #444444;">We only use your information in order to fulfil our obligations to you
                         and for administration purposes.</span></li>
@@ -103,7 +103,7 @@
                         their job.</span></li>
             </ul>
             <p>&nbsp;</p>
-            <h2><span style="color: #e50914;">What type of information do you collect?</span></h2>
+            <h2><span style="color: #e50914;" class="description_title">What type of information do you collect?</span></h2>
             <ul>
                 <li><span style="color: #444444;">Any information that you submit into a form may be collected and
                         stored by the web or database server in order to improve our operations and to provide the best
@@ -115,11 +115,11 @@
                         required.</span></li>
             </ul>
             <p>&nbsp;</p>
-            <h2><span style="color: #e50914;">Do you use cookies?</span></h2>
+            <h2><span style="color: #e50914;" class="description_title">Do you use cookies?</span></h2>
             <p><span style="color: #444444;">Yes. Cookies are required in order to provide interactive functionality
                     such as logging in and preparing quotes.</span></p>
             <p>&nbsp;</p>
-            <h2><span style="color: #e50914;">What information do you send me?</span></h2>
+            <h2><span style="color: #e50914;" class="description_title">What information do you send me?</span></h2>
             <ul>
                 <li><span style="color: #444444;">Emails generated in the course of your use of our website such as
                         booking confirmations.</span></li>

@@ -4,7 +4,7 @@
   <!-- Required meta tags -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+  <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
 
   <title>London City Airport Transfers – British Express Cars </title>
 
@@ -94,14 +94,16 @@
           <!-- <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
         </ul>
 
-        <div class="login_section">
-          <a href="" style="" class="login_section_text">
-            <img src="./assets/images/passenger_icon.png" style="width: 19px; height: 19px; object-fit: contain;" />
-            <p style="">Passenger Login</p>
+        <div class="login_btn_container">
+          <a href="" style="" class="">
+            <button class="btn main-banner-btn " type="button" name="book_now11">
+              Passenger Login
+            </button>
           </a>
-          <a href="" style="" class="login_section_text">
-            <img src="./assets/images/driver_icon.png" style="width: 19px; height: 19px; object-fit: contain;" />
-            <p style="">Driver Login</p>
+          <a href="" style="" class="">
+            <button class="btn main-banner-btn" type="button" name="book_now11">
+              Driver Login
+            </button>
           </a>
         </div>
       </div>
@@ -110,15 +112,23 @@
   </div>
 
   <div style="clear: both"></div>
-  <header>
+  <header class="header">
     <section class="top-menu">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <!-- British Express logo -->
+          <div class="col-md-6 british_express_logo">
             <a class="navbar-brand" href="index.php">
               <img src="./assets/images/logo.png" alt="logo" class="img-fluid" />
             </a>
           </div>
+          <!-- Travel Bird logo -->
+          <div class="col-md-6 travel_bird_logo">
+            <a class="navbar-brand" href="index.php">
+              <img src="./assets/images/travel_bird_logo.png" alt="Travel Bird logo" class="img-fluid" />
+            </a>
+          </div>
+
           <div class="col-md-6">
             <div class="bar">
               <img src="./assets/images/menu-button.png" />
@@ -127,7 +137,7 @@
               <ul>
                 <li>
                   <a href="tel:02081111104" style="display: flex; align-items: center;">
-                    <img src="./assets/images/telephone.svg" /> <span style="font-size: 19px;">020 8111
+                    <img src="./assets/images/telephone.svg" /> <span style="">020 8111
                       1104</span></a>
                 </li>
                 <li>
